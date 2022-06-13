@@ -19,7 +19,4 @@ public class CinemaSeat {
         this.row = row;
     }
 
-    public CinemaSeat(boolean freeOrTaken) {
-        this.freeOrTaken = freeOrTaken;
-    }
 }
