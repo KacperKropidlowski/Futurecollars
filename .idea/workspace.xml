@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 7">
-      <change afterPath="$PROJECT_DIR$/lesson7/src/main/java/Movie.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 7">
+      <change afterPath="$PROJECT_DIR$/lesson7/src/main/java/BaseEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/src/main/java/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/src/main/java/Ticketseller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/CinemaSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/CinemaSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,14 @@
       <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lesson7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.Main" />
       <module name="lesson6" />
@@ -81,21 +93,6 @@
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.AgeOfConsentTest" />
       <option name="METHOD_NAME" value="check" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WeekDayTest.weekday" />
         <item itemvalue="JUnit.EvenNumberTest.check" />
         <item itemvalue="JUnit.AgeOfConsentTest.check" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655065680158</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 2 Lesson 7">
+      <created>1655066411260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655066411276</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +284,7 @@
     <MESSAGE value="Task 4" />
     <MESSAGE value="Task 5" />
     <MESSAGE value="Task 1 Lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 Lesson 7" />
+    <MESSAGE value="Task 2 Lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 7" />
   </component>
 </project>

@@ -4,6 +4,13 @@ public class Movie {
     private int duration;
     private int productionYear;
 
+    public Movie(String title, String director, int duration, int productionYear) {
+        this.title = title;
+        this.director = director;
+        this.duration = duration;
+        this.productionYear = productionYear;
+    }
+
     public String getTitle() {
         return title;
     }
