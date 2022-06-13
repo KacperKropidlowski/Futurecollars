@@ -12,5 +12,7 @@ public class Main {
         System.out.println(ticketseller1.getBaseSalary());
 
         System.out.println(MinutesAndSeconds.minutesToSecond(999));
+
+        System.out.println(RightTriangle.rightTriangle(3,4,5));
     }
 }
