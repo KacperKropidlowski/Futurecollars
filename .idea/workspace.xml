@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 Lesson 7">
-      <change afterPath="$PROJECT_DIR$/lesson7/src/main/java/RightTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 7">
+      <change afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/ConsoleMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/WindowMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,10 +61,17 @@
       <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RightTriangleTest.RightTriangle">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lesson7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,29 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekDayTest.weekday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.WeekDayTest" />
-      <option name="METHOD_NAME" value="weekday" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="JUnit.RightTriangleTest.RightTriangle" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.MinutesAndSecondsTest.minutesToSeconds" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.WeekDayTest.weekday" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655133774858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task 5 Lesson 7">
+      <created>1655136325109</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655136325109</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +288,7 @@
     <MESSAGE value="Task 2 Lesson 7" />
     <MESSAGE value="Task 3 Lesson 7" />
     <MESSAGE value="Task 4 Lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 7" />
+    <MESSAGE value="Task 5 Lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 7" />
   </component>
 </project>
