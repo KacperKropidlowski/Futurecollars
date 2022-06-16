@@ -1,6 +1,7 @@
-package Task2;
+package Task3;
 
-public class Triangle extends Shape {
+public class Triangle implements AreaAndPerimeterCalculator {
+
     private final double edgeA;
     private final double edgeB;
     private final double edgeC;
@@ -14,13 +15,13 @@ public class Triangle extends Shape {
     }
 
     @Override
-    double getArea() {
+    public double getArea() {
         return edgeA * (h / 2);
 
     }
 
     @Override
-    double getPerimeter() {
+    public double getPerimeter() {
         return edgeA + edgeB + edgeC;
     }
 }
