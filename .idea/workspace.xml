@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 7">
-      <change afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/ConsoleMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/WindowMessage.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 8">
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task2/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task2/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task2/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task2/TriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/AgeOfConsentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/AgeOfConsentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/EvenNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/EvenNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/WeekDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/WeekDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/MinutesAndSeconds.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/MinutesAndSeconds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/test/java/MinutesAndSecondsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/test/java/MinutesAndSecondsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/ConsoleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task1/ConsoleMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task1/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/WindowMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task1/WindowMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +40,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,31 +81,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task2" />
       <recent name="" />
       <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lesson7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lesson8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SquareTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.Main" />
-      <module name="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="Task2.Main" />
+      <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,33 +100,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinutesAndSecondsTest.minutesToSeconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinutesAndSecondsTest" />
-      <option name="METHOD_NAME" value="minutesToSeconds" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task2" />
+      <option name="MAIN_CLASS_NAME" value="Task2.CircleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightTriangleTest.RightTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RightTriangleTest" />
-      <option name="METHOD_NAME" value="RightTriangle" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task2" />
+      <option name="MAIN_CLASS_NAME" value="Task2.RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task2" />
+      <option name="MAIN_CLASS_NAME" value="Task2.SquareTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task2" />
+      <option name="MAIN_CLASS_NAME" value="Task2.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.RightTriangleTest.RightTriangle" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.MinutesAndSecondsTest.minutesToSeconds" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SquareTest" />
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="Application.Task2.Main" />
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.CircleTest" />
       </list>
     </recent_temporary>
   </component>
