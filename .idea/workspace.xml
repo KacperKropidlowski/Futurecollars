@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 8 and corrections">
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/AreaAndPerimeterCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/RectangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/TriangleTest.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3 Lesson 8 and removal of unnecessary Main classes">
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task5/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task5/Platypus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/src/main/java/com/futurecollars/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task2/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -243,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655372305267</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task 3 Lesson 8 and removal of unnecessary Main classes">
+      <created>1655388423065</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655388423065</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +334,7 @@
     <MESSAGE value="Task 4 Lesson 7" />
     <MESSAGE value="Task 5 Lesson 7" />
     <MESSAGE value="Task 2 Lesson 8 and corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 8 and corrections" />
+    <MESSAGE value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
   </component>
 </project>
