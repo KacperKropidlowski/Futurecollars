@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3 Lesson 8 and removal of unnecessary Main classes">
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task5/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task5/Platypus.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 8">
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/TextFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToLowerCaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToUpperCaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task6/BillCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task4/ToUpperCaseClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task6/BillCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,19 +64,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task6" />
+      <recent name="Task4" />
       <recent name="Task3" />
       <recent name="Task2" />
       <recent name="" />
-      <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest (1)">
+  <component name="RunManager" selected="JUnit.BillCalculatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Task4.Main" />
       <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,61 +85,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task2" />
-      <option name="MAIN_CLASS_NAME" value="Task2.RectangleTest" />
+      <option name="PACKAGE_NAME" value="Task6" />
+      <option name="MAIN_CLASS_NAME" value="Task6.BillCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToUpperCaseClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task2" />
-      <option name="MAIN_CLASS_NAME" value="Task2.SquareTest" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.ToUpperCaseClassTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToUpperCaseClassTest.formatText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task3.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task3" />
-      <option name="MAIN_CLASS_NAME" value="Task3.TriangleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.ToUpperCaseClassTest" />
+      <option name="METHOD_NAME" value="formatText(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToUpperCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task2" />
-      <option name="MAIN_CLASS_NAME" value="Task2.TriangleTest" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.ToUpperCaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest (1)" />
-        <item itemvalue="JUnit.SquareTest" />
-        <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="Application.Task2.Main" />
-        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.BillCalculatorTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ToUpperCaseClassTest" />
+        <item itemvalue="JUnit.ToUpperCaseClassTest.formatText" />
+        <item itemvalue="JUnit.ToUpperCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655388423065</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task 5 Lesson 8">
+      <created>1655389584345</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655389584345</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +349,7 @@
     <MESSAGE value="Task 5 Lesson 7" />
     <MESSAGE value="Task 2 Lesson 8 and corrections" />
     <MESSAGE value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
+    <MESSAGE value="Task 5 Lesson 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 8" />
   </component>
 </project>
