@@ -1,5 +1,5 @@
 public class MinutesAndSeconds {
-    public static int minutesToSecond(int minutes) {
+    public static int minutesToSeconds(int minutes) {
         return minutes * 60;
     }
 }
