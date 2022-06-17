@@ -8,7 +8,7 @@ public class EnumToStringWeekdays {
         this.weekday = weekday;
     }
 
-    public String enumToStringWeekdays (){
+    public String enumToStringWeekdays() {
         return weekday.toString();
     }
 }

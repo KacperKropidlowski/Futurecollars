@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 6 Lesson 8">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 7 Lesson 8">
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/TextFormatter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToLowerCaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToUpperCaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumToStringWeekdays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumWeekdays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task8/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task7/EnumToStringWeekdaysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumToStringWeekdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumToStringWeekdays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,14 +63,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task7" />
       <recent name="Task6" />
       <recent name="Task4" />
       <recent name="Task3" />
       <recent name="Task2" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task7.Main">
+  <component name="RunManager" selected="JUnit.EnumToStringWeekdaysTest.shouldConvertWeekdayEnumToString">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.Main" />
       <module name="lesson8" />
@@ -111,6 +112,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnumToStringWeekdaysTest.shouldConvertWeekdayEnumToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task7" />
+      <option name="MAIN_CLASS_NAME" value="Task7.EnumToStringWeekdaysTest" />
+      <option name="METHOD_NAME" value="shouldConvertWeekdayEnumToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToUpperCaseClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson8" />
       <extension name="coverage">
@@ -126,29 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToUpperCaseClassTest.formatText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.ToUpperCaseClassTest" />
-      <option name="METHOD_NAME" value="formatText(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnumToStringWeekdaysTest.shouldConvertWeekdayEnumToString" />
         <item itemvalue="Application.Task7.Main" />
         <item itemvalue="JUnit.BillCalculatorTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ToUpperCaseClassTest" />
-        <item itemvalue="JUnit.ToUpperCaseClassTest.formatText" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655394421465</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task 7 Lesson 8">
+      <created>1655448503781</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655448503781</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +362,7 @@
     <MESSAGE value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
     <MESSAGE value="Task 5 Lesson 8" />
     <MESSAGE value="Task 6 Lesson 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 6 Lesson 8" />
+    <MESSAGE value="Task 7 Lesson 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 7 Lesson 8" />
   </component>
 </project>
