@@ -1,61 +1,61 @@
 package Task4;
 
+import java.math.BigDecimal;
 
 public class Employee {
 
+    public Employee(String n, String sN) {
+        this.name = n;
+        this.surname = sN;
+    }
+
+    public Employee(String n, String sN, int age) {
+        this.name = n;
+        this.age = age;
+        this.surname = sN;
+    }
+
+    public Employee(String n, String surname, int age, BigDecimal value) {
+        this.name = n;
+        this.age = age;
+        this.baseSalary = value;
+        this.surname = surname;
+    }
+
+    public Employee(String name, int age, BigDecimal value1, BigDecimal value2, String surname) {
+        this.name = name;
+        this.age = age;
+        this.baseSalary = value1;
+        this.bonus = value2;
+        this.surname = surname;
+    }
     private final String name;
     private final String surname;
     private int age;
-    private double baseSalary;
-    private double bonus;
-    public static final String WHITE_SPACE = " ";
 
-
-    public Employee(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
-    }
-
-    public Employee(String name, String surname, int age) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-    }
-
-    public Employee(String name, String surname, int age, double baseSalary) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-        this.baseSalary = baseSalary;
-
-    }
-
-    public Employee(String name, String surname, int age, double baseSalary, double bonus) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-        this.baseSalary = baseSalary;
-        this.bonus = bonus;
-    }
-
-    public String getEmployeeInfo() {
+    public String getemployee_Info() {
         return "Employee name : " + name + WHITE_SPACE + surname;
     }
 
     public String getEmployeeDetails() {
-        return "Employee details : " + name + WHITE_SPACE + surname + " is " + age;
+        return "Employee details : " +  name + WHITE_SPACE + surname + " is " + age;
     }
 
-    public double getTotalSalary() {
-        return baseSalary + bonus;
+    public static final String WHITE_SPACE = " ";
+
+    // Method is used to get total  salary
+    public BigDecimal getSalary_1() {
+        return  baseSalary.add(bonus);
     }
 
-    public double getBaseSalary() {
+    public BigDecimal getSalary_2() {
         return baseSalary;
     }
 
-    public double getBonus() {
+    public BigDecimal get_B() {
         return bonus;
     }
 
+    private BigDecimal baseSalary;
+    private BigDecimal bonus;
 }
