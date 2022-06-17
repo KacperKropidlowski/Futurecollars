@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 7 Lesson 8">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 8 Lesson 8 plus Task 7 corrections">
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/TextFormatter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToLowerCaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToUpperCaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task8/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task7/EnumToStringWeekdaysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumToStringWeekdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task7/EnumToStringWeekdays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655448503781</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task 8 Lesson 8 plus Task 7 corrections">
+      <created>1655455177658</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655455177658</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,6 +366,7 @@
     <MESSAGE value="Task 5 Lesson 8" />
     <MESSAGE value="Task 6 Lesson 8" />
     <MESSAGE value="Task 7 Lesson 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 Lesson 8" />
+    <MESSAGE value="Task 8 Lesson 8 plus Task 7 corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 8 Lesson 8 plus Task 7 corrections" />
   </component>
 </project>
