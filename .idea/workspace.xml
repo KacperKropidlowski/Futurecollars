@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 Lesson 9 after refactoring">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 9 before refactoring">
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/TextFormatter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToLowerCaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToUpperCaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -317,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655487027325</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Task 5 Lesson 9 before refactoring">
+      <created>1655487500700</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655487500700</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,6 +430,7 @@
     <MESSAGE value="Task 4 Lesson 9" />
     <MESSAGE value="Task 4 Lesson 9 before refactoring" />
     <MESSAGE value="Task 4 Lesson 9 after refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 9 after refactoring" />
+    <MESSAGE value="Task 5 Lesson 9 before refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 9 before refactoring" />
   </component>
 </project>
