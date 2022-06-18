@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 9 before refactoring">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson after refactoring">
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/TextFormatter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToLowerCaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task4/ToUpperCaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task4/ToLowerCaseClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task4/ToUpperCaseClassTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +70,26 @@
       <recent name="Task3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest">
+  <component name="RunManager" selected="JUnit.ToUpperCaseClassTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task2.Main" />
       <module name="lesson9" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.Main" />
+      <module name="lesson8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,61 +112,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.shouldCheckExistenceOfContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
+    <configuration name="ToLowerCaseClassTest.shouldLowerCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.TextTest" />
-      <option name="METHOD_NAME" value="shouldCheckExistenceOfContent" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.ToLowerCaseClassTest" />
+      <option name="METHOD_NAME" value="shouldLowerCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.shouldCheckIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
+    <configuration name="ToUpperCaseClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.TextTest" />
-      <option name="METHOD_NAME" value="shouldCheckIsPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextTest.shouldGetTextLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.TextTest" />
-      <option name="METHOD_NAME" value="shouldGetTextLength" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.ToUpperCaseClassTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToUpperCaseClassTest" />
+        <item itemvalue="JUnit.ToLowerCaseClassTest.shouldLowerCase" />
+        <item itemvalue="Application.Task4.Main" />
         <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TextTest.shouldGetTextLength" />
-        <item itemvalue="JUnit.TextTest.shouldCheckIsPalindrome" />
-        <item itemvalue="JUnit.TextTest.shouldCheckExistenceOfContent" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655487500700</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Task 5 Lesson after refactoring">
+      <created>1655532300060</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655532300060</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,6 +434,7 @@
     <MESSAGE value="Task 4 Lesson 9 before refactoring" />
     <MESSAGE value="Task 4 Lesson 9 after refactoring" />
     <MESSAGE value="Task 5 Lesson 9 before refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 9 before refactoring" />
+    <MESSAGE value="Task 5 Lesson after refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson after refactoring" />
   </component>
 </project>
