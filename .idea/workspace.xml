@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 10">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 0 Lesson 10">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task0/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task0/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task1/DataDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task1/DataDisplay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655901482909</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Task 0 Lesson 10">
+      <created>1655975040647</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975040647</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,8 +461,8 @@
     <MESSAGE value="Task 5 Lesson after refactoring" />
     <MESSAGE value="Task 4 Lesson 8" />
     <MESSAGE value="Task 3 Lesson 9" />
-    <MESSAGE value="Task 0 Lesson 10" />
     <MESSAGE value="Task 1 Lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 Lesson 10" />
+    <MESSAGE value="Task 0 Lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 0 Lesson 10" />
   </component>
 </project>
