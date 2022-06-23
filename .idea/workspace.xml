@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 0 Lesson 10">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task0/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task0/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task1/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task1/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,14 +63,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task1" />
       <recent name="Task3" />
       <recent name="Task4" />
-      <recent name="Task1" />
       <recent name="Task7" />
       <recent name="Task6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataDisplay">
+  <component name="RunManager" selected="JUnit.NumbersTest.shouldSumDigitsOfNumber">
     <configuration name="DataDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.DataDisplay" />
       <module name="lesson10" />
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataEvenLinesDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.DataEvenLinesDisplay" />
-      <module name="lesson10" />
+    <configuration name="Task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.Main" />
+      <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,54 +97,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task0.DataGenerator" />
-      <module name="lesson10" />
+    <configuration name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task0.*" />
+          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task0.Main" />
-      <module name="lesson10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpgradedCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task3" />
-      <option name="MAIN_CLASS_NAME" value="Task3.UpgradedCalculatorTest" />
+      <option name="PACKAGE_NAME" value="Task1" />
+      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersTest.shouldCheckIsNumberDivisibleBy2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task1" />
+      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
+      <option name="METHOD_NAME" value="shouldCheckIsNumberDivisibleBy2(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersTest.shouldSumDigitsOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task1" />
+      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
+      <option name="METHOD_NAME" value="shouldSumDigitsOfNumber(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumbersTest.shouldSumDigitsOfNumber" />
+        <item itemvalue="JUnit.NumbersTest" />
+        <item itemvalue="JUnit.NumbersTest.shouldCheckIsNumberDivisibleBy2" />
+        <item itemvalue="Application.Task1.Main" />
         <item itemvalue="Application.DataDisplay" />
-        <item itemvalue="Application.DataEvenLinesDisplay" />
-        <item itemvalue="Application.DataGenerator" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UpgradedCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655975040647</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Task 0 Lesson 10">
+      <created>1655975492695</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655975492695</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
