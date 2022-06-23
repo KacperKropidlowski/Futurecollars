@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
     @Test
-    void shouldAddTwoValues1and1() {
+    void shouldAddTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -17,7 +17,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldAddTwoValues2and2() {
+    void shouldAddTwoPositiveNumbers2() {
         //given
         int value1 = 2;
         int value2 = 2;
@@ -28,7 +28,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldSubtractTwoValues1and1() {
+    void shouldSubtractTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -39,7 +39,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldSubtractTwoValues4and2() {
+    void shouldSubtractTwoPositiveNumbers2() {
         //given
         int value1 = 4;
         int value2 = 2;
@@ -50,7 +50,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldMultiplyTwoValues1and1() {
+    void shouldMultiplyTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -61,7 +61,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldMultiplyTwoValues2and2() {
+    void shouldMultiplyTwoPositiveNumbers2() {
         //given
         int value1 = 2;
         int value2 = 2;
@@ -72,7 +72,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldDivideTwoValues1and1() {
+    void shouldDivideTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -83,7 +83,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldDivideTwoValues4and2() {
+    void shouldDivideTwoPositiveNumbers2() {
         //given
         int value1 = 4;
         int value2 = 2;
