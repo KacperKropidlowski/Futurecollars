@@ -1,17 +1,18 @@
 package Task0;
 
+import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
+import java.nio.file.*;
 
 public class DataGenerator {
-    public static void main(String[] args) throws IOException {
-        List<String> lines = Arrays.asList("Kurs", "Java", "Lekcja 6", "Pliki", "Wyjątki", "Pliki", "Koniec pliku");
-        Path data = Paths.get("data.txt");
-        Files.write(data, lines, StandardCharsets.UTF_8);
+    public static void main(String[] args) {
+        String dataPathname = "C:/Users/User/IdeaProjects/futurecollars/lesson10/src/main/resources/data.txt";
+        File data = new File(dataPathname);
+        try {
+            data.createNewFile();
+            Files.writeString(Path.of(String.valueOf(data)), "Kurs\nJava\nLekcjca6\nPliki\nWyjątki\nPliki\nKoniec", StandardOpenOption.WRITE);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
