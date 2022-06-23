@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 11">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 11">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task2/Uppercaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task2/UppercaserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task5/SeasonGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -53,6 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -61,20 +64,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task4" />
       <recent name="Task2" />
       <recent name="Task1" />
       <recent name="Task3" />
-      <recent name="Task4" />
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UppercaserTest">
-    <configuration name="Uppercaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.Uppercaser" />
+  <component name="RunManager" selected="Application.SeasonGetter">
+    <configuration name="SeasonGetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.SeasonGetter" />
       <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,48 +85,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextLengthGetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.TextLengthGetter" />
       <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextLengthGetterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.TextLengthGetterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersTest.shouldCheckIsNumberDivisibleBy2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextLengthGetterTest.shouldGetTextLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
-      <option name="METHOD_NAME" value="shouldCheckIsNumberDivisibleBy2(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersTest.shouldSumDigitsOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task1" />
-      <option name="MAIN_CLASS_NAME" value="Task1.NumbersTest" />
-      <option name="METHOD_NAME" value="shouldSumDigitsOfNumber(java.lang.String,java.lang.String)" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.TextLengthGetterTest" />
+      <option name="METHOD_NAME" value="shouldGetTextLength(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeasonGetter" />
+        <item itemvalue="JUnit.TextLengthGetterTest" />
+        <item itemvalue="JUnit.TextLengthGetterTest.shouldGetTextLength" />
+        <item itemvalue="Application.TextLengthGetter" />
         <item itemvalue="JUnit.UppercaserTest" />
-        <item itemvalue="Application.Uppercaser" />
-        <item itemvalue="JUnit.NumbersTest.shouldSumDigitsOfNumber" />
-        <item itemvalue="JUnit.NumbersTest" />
-        <item itemvalue="JUnit.NumbersTest.shouldCheckIsNumberDivisibleBy2" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655981205207</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Task 2 Lesson 11">
+      <created>1655983674066</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655983674066</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 5" />
     <MESSAGE value="Task 1 Lesson 7" />
     <MESSAGE value="Task 2 Lesson 7" />
     <MESSAGE value="Task 3 Lesson 7" />
@@ -487,6 +493,7 @@
     <MESSAGE value="Task 1 Lesson 10" />
     <MESSAGE value="Task 0 Lesson 10" />
     <MESSAGE value="Task 1 Lesson 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 Lesson 11" />
+    <MESSAGE value="Task 2 Lesson 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 11" />
   </component>
 </project>
