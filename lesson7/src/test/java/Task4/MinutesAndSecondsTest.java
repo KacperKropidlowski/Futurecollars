@@ -1,3 +1,6 @@
+package Task4;
+
+import Task4.MinutesAndSeconds;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
