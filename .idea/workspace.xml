@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 7 correction">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 7 correction">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
@@ -13,9 +13,8 @@
       <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/BaseEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task3/BaseEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task3/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/MinutesAndSeconds.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task4/MinutesAndSeconds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task2/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task5/RightTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Ticketseller.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task3/Ticketseller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/Ticketseller.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/main/java/Task3/TicketSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7/src/test/java/MinutesAndSecondsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/test/java/MinutesAndSecondsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" afterDir="false" />
     </list>
@@ -79,13 +78,39 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CinemaSeat">
+  <component name="RunManager" selected="Application.TicketSeller">
     <configuration name="CinemaSeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.CinemaSeat" />
       <module name="lesson7" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3.Manager" />
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketSeller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3.TicketSeller" />
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,37 +127,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOrOddNumberCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.EvenOrOddNumberCheckerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOrOddNumberCheckerTest.shouldCheckIfNumberIsOdd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.EvenOrOddNumberCheckerTest" />
-      <option name="METHOD_NAME" value="shouldCheckIfNumberIsOdd2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketSeller" />
+        <item itemvalue="Application.Task3.Manager" />
         <item itemvalue="Application.CinemaSeat" />
         <item itemvalue="JUnit.WeekDayCheckerTest" />
         <item itemvalue="Application.WeekDayChecker" />
-        <item itemvalue="JUnit.EvenOrOddNumberCheckerTest" />
-        <item itemvalue="JUnit.EvenOrOddNumberCheckerTest.shouldCheckIfNumberIsOdd2" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656055753816</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Task 2 Lesson 7 correction">
+      <created>1656066300285</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1656066300285</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 3 Lesson 8 and removal of unnecessary Main classes" />
     <MESSAGE value="Task 5 Lesson 8" />
     <MESSAGE value="Task 6 Lesson 8" />
     <MESSAGE value="Task 7 Lesson 8" />
@@ -544,6 +544,7 @@
     <MESSAGE value="Task 4 Lesson 6 correction" />
     <MESSAGE value="Task 6 Lesson 6 correction" />
     <MESSAGE value="Task 1 Lesson 7 correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 Lesson 7 correction" />
+    <MESSAGE value="Task 2 Lesson 7 correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 7 correction" />
   </component>
 </project>
