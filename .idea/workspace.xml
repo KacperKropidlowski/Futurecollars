@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 10">
-      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task3/DataCharacterCounter.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3 Lesson 10">
+      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
@@ -75,7 +75,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataCharacterCounter">
+  <component name="RunManager" selected="Application.DataWordFinder">
     <configuration name="DataCharacterCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task3.DataCharacterCounter" />
       <module name="lesson10" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5.RightTriangleChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task5.RightTriangleChecker" />
-      <module name="lesson7" />
+    <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
+      <module name="lesson10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task5.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketSeller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3.TicketSeller" />
+    <configuration name="Task5.RightTriangleChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.RightTriangleChecker" />
       <module name="lesson7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task3.*" />
+          <option name="PATTERN" value="Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataWordFinder" />
         <item itemvalue="Application.DataCharacterCounter" />
         <item itemvalue="Application.DataEvenLinesDisplay" />
         <item itemvalue="JUnit.RightTriangleCheckerTest" />
         <item itemvalue="Application.Task5.RightTriangleChecker" />
-        <item itemvalue="Application.TicketSeller" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656145966157</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Task 3 Lesson 10">
+      <created>1656147634838</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1656147634838</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 1 Lesson 9" />
     <MESSAGE value="Task 2 Lesson 9" />
     <MESSAGE value="Task 4 Lesson 9" />
     <MESSAGE value="Task 4 Lesson 9 before refactoring" />
@@ -577,7 +583,8 @@
     <MESSAGE value="Task 5 Lesson 7 correction" />
     <MESSAGE value="Task 5 Lesson 7 correction2" />
     <MESSAGE value="Task 2 Lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 10" />
+    <MESSAGE value="Task 3 Lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 Lesson 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
