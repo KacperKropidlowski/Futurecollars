@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 7 correction">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 10">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/main/java/RightTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7/src/test/java/RightTriangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +75,13 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RightTriangleCheckerTest">
-    <configuration name="CinemaSeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.CinemaSeat" />
-      <module name="lesson7" />
+  <component name="RunManager" selected="Application.DataEvenLinesDisplay">
+    <configuration name="DataEvenLinesDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.DataEvenLinesDisplay" />
+      <module name="lesson10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataEvenLinesDisplay" />
         <item itemvalue="JUnit.RightTriangleCheckerTest" />
         <item itemvalue="Application.Task5.RightTriangleChecker" />
         <item itemvalue="Application.TicketSeller" />
         <item itemvalue="Application.Task3.Manager" />
-        <item itemvalue="Application.CinemaSeat" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656078165750</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Task 5 Lesson 7 correction2">
+      <created>1656078219578</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1656078219578</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,8 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 8 Lesson 8 plus Task 7 corrections" />
-    <MESSAGE value="Task 9 Lesson 8" />
     <MESSAGE value="Task 1 Lesson 9" />
     <MESSAGE value="Task 2 Lesson 9" />
     <MESSAGE value="Task 4 Lesson 9" />
@@ -564,6 +568,18 @@
     <MESSAGE value="Task 3 Lesson 7 correction" />
     <MESSAGE value="Task 4 Lesson 7 correction" />
     <MESSAGE value="Task 5 Lesson 7 correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 7 correction" />
+    <MESSAGE value="Task 5 Lesson 7 correction2" />
+    <MESSAGE value="Task 2 Lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 Lesson 10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
