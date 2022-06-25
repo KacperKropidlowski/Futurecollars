@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 6 Lesson 10">
-      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task7/NumberIsNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task7/SquareRootGetter.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 7 Lesson 10">
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task7/NumberIsNegativeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task7/SquareRootGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task7/SquareRootGetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656157318585</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Task 7 Lesson 10">
+      <created>1656159579391</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1656159579391</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 4 Lesson 9 after refactoring" />
     <MESSAGE value="Task 5 Lesson 9 before refactoring" />
     <MESSAGE value="Task 5 Lesson after refactoring" />
     <MESSAGE value="Task 4 Lesson 8" />
@@ -604,7 +610,8 @@
     <MESSAGE value="Task 4 Lesson 10" />
     <MESSAGE value="Task 5 Lesson 10" />
     <MESSAGE value="Task 6 Lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 6 Lesson 10" />
+    <MESSAGE value="Task 7 Lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 7 Lesson 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
