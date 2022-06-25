@@ -8,8 +8,4 @@ public class SquareRootGetter {
             throw new IllegalArgumentException("Number is negative!");
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(SquareRootGetter.getSquareRoot(-9));
-    }
 }
