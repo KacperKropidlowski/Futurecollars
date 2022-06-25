@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 2 Lesson 10">
-      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task2/DataEvenLinesDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task3/DataCharacterCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
@@ -21,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,13 +75,13 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataEvenLinesDisplay">
-    <configuration name="DataEvenLinesDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.DataEvenLinesDisplay" />
+  <component name="RunManager" selected="Application.DataCharacterCounter">
+    <configuration name="DataCharacterCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3.DataCharacterCounter" />
       <module name="lesson10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3.Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3.Manager" />
-      <module name="lesson7" />
+    <configuration name="DataEvenLinesDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.DataEvenLinesDisplay" />
+      <module name="lesson10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task3.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataCharacterCounter" />
         <item itemvalue="Application.DataEvenLinesDisplay" />
         <item itemvalue="JUnit.RightTriangleCheckerTest" />
         <item itemvalue="Application.Task5.RightTriangleChecker" />
         <item itemvalue="Application.TicketSeller" />
-        <item itemvalue="Application.Task3.Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656078219578</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Task 2 Lesson 10">
+      <created>1656145966157</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1656145966157</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
