@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 Lesson 10">
-      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task5/DataBackwardsSetter.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 5 Lesson 10">
+      <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task6/DataUppercaseSetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task4/TextLengthGetter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
@@ -75,7 +75,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataBackwardsSetter">
+  <component name="RunManager" selected="Application.DataUppercaseSetter">
     <configuration name="DataBackwardsSetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task5.DataBackwardsSetter" />
       <module name="lesson10" />
@@ -115,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataUppercaseSetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task6.DataUppercaseSetter" />
+      <module name="lesson10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
       <module name="lesson10" />
@@ -128,28 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightTriangleCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task5" />
-      <option name="MAIN_CLASS_NAME" value="Task5.RightTriangleCheckerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataUppercaseSetter" />
         <item itemvalue="Application.DataBackwardsSetter" />
         <item itemvalue="Application.DataWordFinder" />
         <item itemvalue="Application.DataCharacterCounter" />
         <item itemvalue="Application.DataEvenLinesDisplay" />
-        <item itemvalue="JUnit.RightTriangleCheckerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656149607460</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Task 5 Lesson 10">
+      <created>1656153813317</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1656153813317</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 4 Lesson 9" />
     <MESSAGE value="Task 4 Lesson 9 before refactoring" />
     <MESSAGE value="Task 4 Lesson 9 after refactoring" />
     <MESSAGE value="Task 5 Lesson 9 before refactoring" />
@@ -591,7 +595,8 @@
     <MESSAGE value="Task 2 Lesson 10" />
     <MESSAGE value="Task 3 Lesson 10" />
     <MESSAGE value="Task 4 Lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 10" />
+    <MESSAGE value="Task 5 Lesson 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 5 Lesson 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
