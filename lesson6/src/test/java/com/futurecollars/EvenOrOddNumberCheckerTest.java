@@ -11,17 +11,27 @@ class EvenOrOddNumberCheckerTest {
         //given
         int number = 12;
         //when
-        boolean result = EvenOrOddNumberChecker.checkIfNumberIsEven(number);
+        boolean result = EvenOrOddNumberChecker.IsEven(number);
         //then
         assertTrue(result);
     }
 
     @Test
-    void shouldCheckIfNumberIsEven2() {
+    void shouldCheckIfNumberIsNotEven() {
         //given
         int number = 13;
         //when
-        boolean result = EvenOrOddNumberChecker.checkIfNumberIsEven(number);
+        boolean result = EvenOrOddNumberChecker.IsEven(number);
+        //then
+        assertFalse(result);
+    }
+
+    @Test
+    void shouldCheckIfNumberIsNotOdd() {
+        //given
+        int number = 12;
+        //when
+        boolean result = EvenOrOddNumberChecker.IsOdd(number);
         //then
         assertFalse(result);
     }
@@ -29,19 +39,9 @@ class EvenOrOddNumberCheckerTest {
     @Test
     void shouldCheckIfNumberIsOdd() {
         //given
-        int number = 12;
-        //when
-        boolean result = EvenOrOddNumberChecker.checkIfNumberIsOdd(number);
-        //then
-        assertFalse(result);
-    }
-
-    @Test
-    void shouldCheckIfNumberIsOdd2() {
-        //given
         int number = 13;
         //when
-        boolean result = EvenOrOddNumberChecker.checkIfNumberIsOdd(number);
+        boolean result = EvenOrOddNumberChecker.IsOdd(number);
         //then
         assertTrue(result);
     }
