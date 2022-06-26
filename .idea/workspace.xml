@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 7 Lesson 10">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3 Lesson 6 correction">
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task8/IllegalLengthException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task8/PESELValidator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task8/WrongTypeOfDataException.java" afterDir="false" />
@@ -12,7 +12,8 @@
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/main/java/com/futurecollars/EvenOrOddNumberChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/main/java/com/futurecollars/EvenOrOddNumberChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/EvenOrOddNumberCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/src/test/java/com/futurecollars/EvenOrOddNumberCheckerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +79,9 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.shouldDivideZeroByPositiveNumber">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.Calculator" />
+  <component name="RunManager" selected="JUnit.EvenOrOddNumberCheckerTest">
+    <configuration name="EvenOrOddNumberChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.EvenOrOddNumberChecker" />
       <module name="lesson6" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldDivideTwoNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson6" />
       <extension name="coverage">
         <pattern>
@@ -102,24 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldDivideTwoNegativeNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.shouldDivideTwoZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldDivideTwoZeros" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldMultiplyTwoZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EvenOrOddNumberCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson6" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +133,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldMultiplyTwoZeros" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.EvenOrOddNumberCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenOrOddNumberCheckerTest.shouldCheckIfNumberIsNotEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.EvenOrOddNumberCheckerTest" />
+      <option name="METHOD_NAME" value="shouldCheckIfNumberIsNotEven" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EvenOrOddNumberCheckerTest" />
+        <item itemvalue="JUnit.EvenOrOddNumberCheckerTest.shouldCheckIfNumberIsNotEven" />
+        <item itemvalue="Application.EvenOrOddNumberChecker" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.shouldDivideZeroByPositiveNumber" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="JUnit.CalculatorTest.shouldDivideTwoZeros" />
-        <item itemvalue="JUnit.CalculatorTest.shouldDivideTwoNegativeNumbers" />
-        <item itemvalue="JUnit.CalculatorTest.shouldMultiplyTwoZeros" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Task 4">
-      <created>1654777444212</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654777444212</updated>
     </task>
     <task id="LOCAL-00004" summary="Task 5">
       <created>1654778481560</created>
@@ -518,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656163403374</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Task 3 Lesson 6 correction">
+      <created>1656228829258</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1656228829258</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +608,6 @@
     <MESSAGE value="Task 1 Lesson 11" />
     <MESSAGE value="Task 2 Lesson 11" />
     <MESSAGE value="Task 5 Lesson 11" />
-    <MESSAGE value="Task 3 Lesson 6 correction" />
     <MESSAGE value="Task 5 Lesson 6 correction" />
     <MESSAGE value="Task 4 Lesson 6 correction" />
     <MESSAGE value="Task 6 Lesson 6 correction" />
@@ -625,7 +623,8 @@
     <MESSAGE value="Task 5 Lesson 10" />
     <MESSAGE value="Task 6 Lesson 10" />
     <MESSAGE value="Task 7 Lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 Lesson 10" />
+    <MESSAGE value="Task 3 Lesson 6 correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 Lesson 6 correction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
