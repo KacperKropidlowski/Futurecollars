@@ -16,8 +16,8 @@ public class WeekDayChecker {
             case 6:
             case 7:
                 return "Weekend";
-
+            default:
+                return "There is no such day!";
         }
-        return "There is no such day!";
     }
 }
