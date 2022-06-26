@@ -17,14 +17,25 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldAddTwoPositiveNumbers2() {
+    void shouldAddTwoNegativeNumbers() {
         //given
-        int value1 = 2;
-        int value2 = 2;
+        int value1 = -2;
+        int value2 = -2;
         //when
         int result = Calculator.add(value1, value2);
         //then
-        Assertions.assertEquals(4, result);
+        Assertions.assertEquals(-4, result);
+    }
+
+    @Test
+    void shouldAddTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.add(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
     }
 
     @Test
@@ -39,14 +50,25 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldSubtractTwoPositiveNumbers2() {
+    void shouldSubtractTwoNegativeNumbers() {
         //given
-        int value1 = 4;
-        int value2 = 2;
+        int value1 = -4;
+        int value2 = -2;
         //when
         int result = Calculator.subtract(value1, value2);
         //then
-        Assertions.assertEquals(2, result);
+        Assertions.assertEquals(-2, result);
+    }
+
+    @Test
+    void shouldSubtractTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.subtract(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
     }
 
     @Test
@@ -61,14 +83,25 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldMultiplyTwoPositiveNumbers2() {
+    void shouldMultiplyTwoNegativeNumbers() {
         //given
-        int value1 = 2;
-        int value2 = 2;
+        int value1 = -2;
+        int value2 = -2;
         //when
         int result = Calculator.multiply(value1, value2);
         //then
         Assertions.assertEquals(4, result);
+    }
+
+    @Test
+    void shouldMultiplyTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.multiply(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
     }
 
     @Test
@@ -83,13 +116,24 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldDivideTwoPositiveNumbers2() {
+    void shouldDivideTwoNegativeNumbers() {
         //given
-        int value1 = 4;
-        int value2 = 2;
+        int value1 = -4;
+        int value2 = -2;
         //when
         int result = Calculator.divide(value1, value2);
         //then
         Assertions.assertEquals(2, result);
+    }
+
+    @Test
+    void shouldDivideZeroByPositiveNumber() {
+        //given
+        int value1 = 0;
+        int value2 = 1;
+        //when
+        int result = Calculator.divide(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
     }
 }
