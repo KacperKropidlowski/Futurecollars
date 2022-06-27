@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 class RectangleTest {
 
     @Test
-    void shouldGetAreaOfRectangle4x5() {
+    void shouldGetAreaOfRectangle() {
         //given
-        Task3.Rectangle rectangle = new Task3.Rectangle(4, 5);
+        Rectangle rectangle = new Rectangle(4, 5);
         //when
         double result = rectangle.getArea();
         //then
@@ -16,9 +16,9 @@ class RectangleTest {
     }
 
     @Test
-    void shouldGetPerimeterOfRectangle4x5() {
+    void shouldGetPerimeterOfRectangle() {
         //given
-        Task3.Rectangle rectangle = new Task3.Rectangle(4, 5);
+        Rectangle rectangle = new Rectangle(4, 5);
         //when
         double result = rectangle.getPerimeter();
         //then

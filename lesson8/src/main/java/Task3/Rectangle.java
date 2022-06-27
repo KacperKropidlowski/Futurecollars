@@ -1,6 +1,6 @@
 package Task3;
 
-public class Rectangle implements AreaAndPerimeterCalculator {
+public class Rectangle implements GeometricFigure {
     private final double edgeR;
     private final double edgeT;
 

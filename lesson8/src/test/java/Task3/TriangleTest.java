@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 class TriangleTest {
 
     @Test
-    void shouldGetAreaOfTriangleWithEdges3_4_5andHeight4() {
+    void shouldGetAreaOfTriangle() {
         //given
-        Task3.Triangle triangle = new Task3.Triangle(3, 4, 5, 4);
+        Triangle triangle = new Triangle(3, 4, 5, 4);
 
         //when
         double area = triangle.getArea();
@@ -18,9 +18,9 @@ class TriangleTest {
     }
 
     @Test
-    void shouldGetPerimeterOfTriangleWithEdges3_4_5andHeight4() {
+    void shouldGetPerimeterOfTriangle() {
         //given
-        Task3.Triangle triangle = new Task3.Triangle(3, 4, 5, 4);
+        Triangle triangle = new Triangle(3, 4, 5, 4);
 
         //when
         double perimeter = triangle.getPerimeter();

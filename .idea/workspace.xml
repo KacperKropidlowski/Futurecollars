@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 7 Lesson 11 problem">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 and 7 Lesson 11 solution">
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task8/BaseSalary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task8/SalaryCalculator.java" afterDir="false" />
@@ -15,8 +15,12 @@
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/AreaAndPerimeterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/GeometricFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/test/java/Task3/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/test/java/Task3/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,16 +94,18 @@
       <recent name="Task3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TrainingScoreTest">
-    <configuration name="TrainingScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task7.TrainingScore" />
-      <module name="lesson11" />
+  <component name="RunManager" selected="JUnit.TriangleTest">
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task7.*" />
+          <option name="PATTERN" value="Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task3" />
+      <option name="MAIN_CLASS_NAME" value="Task3.RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,29 +156,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrainingScoreTest.shouldGetTrainingScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson11" />
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task7.*" />
+          <option name="PATTERN" value="Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task7" />
-      <option name="MAIN_CLASS_NAME" value="Task7.TrainingScoreTest" />
-      <option name="METHOD_NAME" value="shouldGetTrainingScore(double,double,double,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Task3" />
+      <option name="MAIN_CLASS_NAME" value="Task3.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrainingScoreTest" />
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.RectangleTest" />
         <item itemvalue="JUnit.TextLengthGetterTest" />
+        <item itemvalue="JUnit.TrainingScoreTest" />
         <item itemvalue="JUnit.TextLengthGetterTest.shouldGetTextLength" />
-        <item itemvalue="Application.TrainingScore" />
-        <item itemvalue="JUnit.TrainingScoreTest.shouldGetTrainingScore" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Task 5 Lesson 8">
-      <created>1655389584345</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1655389584345</updated>
     </task>
     <task id="LOCAL-00014" summary="Task 6 Lesson 8">
       <created>1655394421465</created>
@@ -528,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656330876689</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Task 4 and 7 Lesson 11 solution">
+      <created>1656340700228</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1656340700228</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 1 Lesson 11" />
     <MESSAGE value="Task 2 Lesson 11" />
     <MESSAGE value="Task 5 Lesson 11" />
     <MESSAGE value="Task 4 Lesson 6 correction" />
@@ -635,7 +639,8 @@
     <MESSAGE value="Task 9 Lesson 10" />
     <MESSAGE value="Task 4 Lesson 11 problem" />
     <MESSAGE value="Task 7 Lesson 11 problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 Lesson 11 problem" />
+    <MESSAGE value="Task 4 and 7 Lesson 11 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4 and 7 Lesson 11 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
