@@ -1,14 +1,16 @@
 package Task6;
 
 public class BillCalculator {
-    public static double calculateBill(double bill,float service){
-        return bill + service;
+    public static double calculateBill(double foodCost, float serviceCost) {
+        return foodCost + serviceCost;
     }
-    public static double calculateBill(double bill,float service,double discount){
-        return bill - bill * discount + service;
+
+    public static double calculateBill(double foodCost, float serviceCost, double discount) {
+        return foodCost - foodCost * discount + serviceCost;
     }
-    public static double calculateBill(double bill,float service, short takeawayPackage){
-        return bill + service + takeawayPackage;
+
+    public static double calculateBill(double foodCost, float serviceCost, short takeawayPackageCost) {
+        return foodCost + serviceCost + takeawayPackageCost;
     }
 
 }
