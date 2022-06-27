@@ -1,6 +1,6 @@
 package Task3;
 
-public interface AreaAndPerimeterCalculator {
+public interface GeometricFigure {
     double getArea();
 
     double getPerimeter();
