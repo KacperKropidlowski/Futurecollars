@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 and 7 Lesson 11 solution">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3 Lesson 8">
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task8/BaseSalary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task8/SalaryCalculator.java" afterDir="false" />
@@ -15,12 +15,7 @@
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/src/test/java/Task4/TextLengthGetterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/AreaAndPerimeterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/GeometricFigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task3/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/test/java/Task3/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/src/test/java/Task3/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/test/java/Task3/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/src/main/java/Task6/BillCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/src/main/java/Task6/BillCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Task 6 Lesson 8">
-      <created>1655394421465</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1655394421465</updated>
     </task>
     <task id="LOCAL-00015" summary="Task 7 Lesson 8">
       <created>1655448503781</created>
@@ -533,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656340700228</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Task 3 Lesson 8">
+      <created>1656342772978</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1656342772978</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2 Lesson 11" />
     <MESSAGE value="Task 5 Lesson 11" />
     <MESSAGE value="Task 4 Lesson 6 correction" />
     <MESSAGE value="Task 1 Lesson 7 correction" />
@@ -640,7 +634,8 @@
     <MESSAGE value="Task 4 Lesson 11 problem" />
     <MESSAGE value="Task 7 Lesson 11 problem" />
     <MESSAGE value="Task 4 and 7 Lesson 11 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 and 7 Lesson 11 solution" />
+    <MESSAGE value="Task 3 Lesson 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 Lesson 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
