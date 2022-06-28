@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 8 Lesson 11">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 1 Lesson 9">
       <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/BidirectionalList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task4/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task4/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task1/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task1/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/test/java/Task1/TextTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task2/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task2/FizzBuzz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,20 @@
       <recent name="Task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Text">
+  <component name="RunManager" selected="Application.FizzBuzz">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.FizzBuzz" />
+      <module name="lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.Text" />
       <module name="lesson9" />
@@ -131,22 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyExchangerTest.shouldSellPolishZlotyToBuyEuro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task6" />
-      <option name="MAIN_CLASS_NAME" value="Task6.CurrencyExchangerTest" />
-      <option name="METHOD_NAME" value="shouldSellPolishZlotyToBuyEuro" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SalaryCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson11" />
       <extension name="coverage">
@@ -164,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.Text" />
         <item itemvalue="JUnit.SalaryCalculatorTest" />
         <item itemvalue="JUnit.CurrencyExchangerTest" />
         <item itemvalue="JUnit.CurrencyExchangerTest.shouldSellPolishZloty" />
-        <item itemvalue="JUnit.CurrencyExchangerTest.shouldSellPolishZlotyToBuyEuro" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Task 2 Lesson 9">
-      <created>1655468849547</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1655468849547</updated>
     </task>
     <task id="LOCAL-00020" summary="Task 4 Lesson 9">
       <created>1655486406593</created>
@@ -524,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656435637772</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Task 1 Lesson 9">
+      <created>1656437941307</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1656437941307</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 3 Lesson 7 correction" />
     <MESSAGE value="Task 4 Lesson 7 correction" />
     <MESSAGE value="Task 5 Lesson 7 correction" />
     <MESSAGE value="Task 5 Lesson 7 correction2" />
@@ -631,7 +626,8 @@
     <MESSAGE value="Task 7 Lesson 8 correction" />
     <MESSAGE value="Task 6 Lesson 11" />
     <MESSAGE value="Task 8 Lesson 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 8 Lesson 11" />
+    <MESSAGE value="Task 1 Lesson 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1 Lesson 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
