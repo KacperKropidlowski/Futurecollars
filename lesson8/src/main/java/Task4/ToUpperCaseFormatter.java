@@ -1,9 +1,6 @@
 package Task4;
 
-public class ToUpperCaseClass implements TextFormatter {
-
-    public ToUpperCaseClass() {
-    }
+public class ToUpperCaseFormatter implements TextFormatter {
 
     @Override
     public String formatText(String text) {
