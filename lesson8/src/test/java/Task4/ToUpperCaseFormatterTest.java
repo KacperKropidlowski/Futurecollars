@@ -3,15 +3,15 @@ package Task4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class ToUpperCaseClassTest {
+class ToUpperCaseFormatterTest {
 
     @Test
     void shouldUpperCase() {
         //given
-        ToUpperCaseClass toUpperCaseClass = new ToUpperCaseClass();
+        ToUpperCaseFormatter toUpperCaseFormatter = new ToUpperCaseFormatter();
         String text = "Szedł Sasza suchą szosą";
         //when
-        String result = toUpperCaseClass.formatText(text);
+        String result = toUpperCaseFormatter.formatText(text);
         //then
         Assertions.assertEquals("SZEDŁ SASZA SUCHĄ SZOSĄ", result);
     }

@@ -3,15 +3,15 @@ package Task4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class ToLowerCaseClassTest {
+class ToLowerCaseFormatterTest {
 
     @Test
     void shouldLowerCase() {
         //given
-        ToLowerCaseClass toLowerCaseClass = new ToLowerCaseClass();
+        ToLowerCaseFormatter toLowerCaseFormatter = new ToLowerCaseFormatter();
         String text = "Szedł Sasza suchą szosą";
         //when
-        String result = toLowerCaseClass.formatText(text);
+        String result = toLowerCaseFormatter.formatText(text);
         //then
         Assertions.assertEquals("szedł sasza suchą szosą", result);
     }
