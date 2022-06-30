@@ -1,49 +1,30 @@
 package Task3;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.stream.Stream;
 
 class UpgradedCalculatorTest {
 
-    @Test
-    void shouldAddTwoNumbers() {
+    @ParameterizedTest
+    @MethodSource("provideValuesForShouldPerformUpgradedCalculationTest")
+    void shouldPerformUpgradedCalculation(CalculatorOperation calculatorOperation,double left, double right, double expected) {
         //given
-        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(17, 8);
+        UpgradedCalculator upgradedCalculator = new UpgradedCalculator();
         //when
-        double result = upgradedCalculator.add();
+        double actual = upgradedCalculator.upgradedCalculate(calculatorOperation,left,right);
         //then
-        Assertions.assertEquals(25, result);
+        Assertions.assertEquals(expected,actual);
     }
-
-    @Test
-    void shouldSubtractTwoNumbers() {
-        //given
-        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(17, 8);
-        //when
-        double result = upgradedCalculator.subtract();
-        //then
-        Assertions.assertEquals(9, result);
-    }
-
-    @Test
-    void shouldMultiplyTwoNumbers() {
-        //given
-        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(17, 8);
-        //when
-        double result = upgradedCalculator.multiply();
-        //then
-        Assertions.assertEquals(136, result);
-    }
-
-    @Test
-    void shouldDivideTwoNumbers() {
-        //given
-        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(17, 8);
-        //when
-        double result = upgradedCalculator.divide();
-        //then
-        Assertions.assertEquals(2.125, result);
+    private static Stream<Arguments> provideValuesForShouldPerformUpgradedCalculationTest(){
+        return Stream.of(
+                Arguments.of(new Addition(),5,5,10),
+                Arguments.of(new Subtraction(),10,5,5),
+                Arguments.of(new Multiplication(),5,5,25),
+                Arguments.of(new Division(),25,5,5)
+        );
     }
 }
