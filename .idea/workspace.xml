@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 Lesson 9 correction">
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 4 Lesson 9 alternative version">
       <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/Node.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task4/EmployeeBuilderVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/src/test/java/Task4/EmployeeBuilderVersionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -88,7 +91,20 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus">
+  <component name="RunManager" selected="Application.wrongcar">
+    <configuration name="wrongcar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.wrongcar" />
+      <module name="lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeBuilderVersionTest.shouldRetrieveBaseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson9" />
       <extension name="coverage">
@@ -137,22 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveEmployeeDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveEmployeeDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmployeeBuilderVersionTest.shouldRetrieveEmployeeDetailsWithAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson9" />
       <extension name="coverage">
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.wrongcar" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalary" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeDetailsWithAge" />
-        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Task 4 Lesson 8">
-      <created>1655538432687</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1655538432687</updated>
     </task>
     <task id="LOCAL-00026" summary="Task 3 Lesson 9">
       <created>1655543128863</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656580766354</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Task 4 Lesson 9 alternative version">
+      <created>1656580934287</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1656580934287</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -613,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 4 Lesson 10" />
     <MESSAGE value="Task 5 Lesson 10" />
     <MESSAGE value="Task 6 Lesson 10" />
     <MESSAGE value="Task 7 Lesson 10" />
@@ -638,7 +637,8 @@
     <MESSAGE value="Task 4 Lesson 8" />
     <MESSAGE value="Task 3 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 9 correction" />
+    <MESSAGE value="Task 4 Lesson 9 alternative version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 9 alternative version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
