@@ -7,7 +7,7 @@ public class Employee {
     private int age;
     private double baseSalary;
     private double bonus;
-    public static final String whitespace = " ";
+    public static final String WHITE_SPACE = " ";
 
 
     public Employee(String name, String surname) {
@@ -38,11 +38,11 @@ public class Employee {
     }
 
     public String getEmployeeInfo() {
-        return "Employee name : " + name + whitespace + surname;
+        return "Employee name : " + name + WHITE_SPACE + surname;
     }
 
     public String getEmployeeDetails() {
-        return "Employee details : " + name + whitespace + surname + " is " + age;
+        return "Employee details : " + name + WHITE_SPACE + surname + " is " + age;
     }
 
     public double getTotalSalary() {
