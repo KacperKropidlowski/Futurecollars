@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3">
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnFifoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnGenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task4/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task5/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +34,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +83,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataWordFinder">
+  <component name="RunManager" selected="Application.Names">
     <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
       <module name="lesson10" />
@@ -182,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataWordFinder" />
         <item itemvalue="Application.Names" />
+        <item itemvalue="Application.DataWordFinder" />
         <item itemvalue="Application.wrongcar" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
