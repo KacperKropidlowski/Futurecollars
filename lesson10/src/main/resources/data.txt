@@ -1,6 +1,6 @@
 Kurs
 Java
-Lekcjca6
+Lekcja6
 Pliki
 Wyjątki
 Pliki

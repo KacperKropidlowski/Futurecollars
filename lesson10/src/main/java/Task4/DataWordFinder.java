@@ -10,7 +10,9 @@ public class DataWordFinder {
         String data;
         boolean contains = false;
         while ((data = br.readLine()) != null) {
-            contains = data.contains(word);
+            if (data.contains(word)) {
+                contains = true;
+            }
         }
         return contains;
     }
