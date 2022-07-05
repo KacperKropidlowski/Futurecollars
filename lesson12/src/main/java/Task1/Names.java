@@ -5,54 +5,25 @@ import java.util.*;
 public class Names {
     public static void main(String[] args) {
 
-        ArrayList<String> namesArrayList = new ArrayList<>();
-        namesArrayList.add("Anna");
-        namesArrayList.add("Katarzyna");
-        namesArrayList.add("Tymon");
-        namesArrayList.add("Tadeusz");
-        namesArrayList.add("Anna");
-        namesArrayList.add("Karolina");
-        namesArrayList.add("Dorota");
-        namesArrayList.add("Piotr");
+        List<String> namesList = new ArrayList<>();
+        Collections.addAll(namesList,"Anna", "Katarzyna", "Tymon", "Tadeusz", "Anna", "Karolina", "Dorota", "Piotr");
 
         Set<String> namesSet = new HashSet<>();
-        namesSet.add("Anna");
-        namesSet.add("Katarzyna");
-        namesSet.add("Tymon");
-        namesSet.add("Tadeusz");
-        namesSet.add("Anna");
-        namesSet.add("Karolina");
-        namesSet.add("Dorota");
-        namesSet.add("Piotr");
+        namesSet.addAll(namesList);
         System.out.println("Lista bez duplikatów: " + namesSet);
 
-        List<String> reverseNameList = new ArrayList<>();
-        ListIterator<String> iterator = namesArrayList.listIterator();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        iterator.next();
-        while (iterator.hasPrevious()) {
-            reverseNameList.add(iterator.previous());
-        }
-        System.out.println("Elementy w odwrotnej kolejności: " + reverseNameList);
+        Collections.reverse(namesList);
+        System.out.println("Elementy w odwrotnej kolejności: " + namesList);
 
-        System.out.println("Elementy po zmianie: Anna -> Joanna: \n" + resetElement(namesArrayList, "Anna", "Joanna"));
+        Collections.reverse(namesList);
+        System.out.println("Elementy po zmianie: Anna -> Joanna: \n" + replaceElement(namesList, "Anna", "Joanna"));
 
     }
 
-    public static ArrayList resetElement(ArrayList<String> arrayList, String elementBefore, String elementAfter) {
-        ListIterator<String> iterator = arrayList.listIterator();
-        ArrayList resetElementArrayList = new ArrayList<>();
-        while (iterator.hasNext()) {
-            if (iterator.next().equals(elementBefore)) {
-                resetElementArrayList.add(elementAfter);
-            } resetElementArrayList.add(iterator.next());
+    public static List<String> replaceElement(List<String> inputList, String elementBefore, String elementAfter) {
+        while (inputList.contains(elementBefore)) {
+            inputList.set(inputList.indexOf(elementBefore), elementAfter);
         }
-        return resetElementArrayList;
+        return inputList;
     }
 }
