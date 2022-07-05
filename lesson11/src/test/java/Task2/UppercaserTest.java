@@ -23,6 +23,6 @@ class UppercaserTest {
     @ParameterizedTest
     @EmptySource
     void shouldReturnEmpty(String input) {
-        Assertions.assertEquals("empty", Uppercaser.setUppercase(input));
+        Assertions.assertEquals("", Uppercaser.setUppercase(input));
     }
 }
