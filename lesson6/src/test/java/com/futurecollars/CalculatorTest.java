@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
     @Test
-    void shouldAddTwoValues1and1() {
+    void shouldAddTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -17,18 +17,29 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldAddTwoValues2and2() {
+    void shouldAddTwoNegativeNumbers() {
         //given
-        int value1 = 2;
-        int value2 = 2;
+        int value1 = -2;
+        int value2 = -2;
         //when
         int result = Calculator.add(value1, value2);
         //then
-        Assertions.assertEquals(4, result);
+        Assertions.assertEquals(-4, result);
     }
 
     @Test
-    void shouldSubtractTwoValues1and1() {
+    void shouldAddTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.add(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
+    }
+
+    @Test
+    void shouldSubtractTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -39,18 +50,29 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldSubtractTwoValues4and2() {
+    void shouldSubtractTwoNegativeNumbers() {
         //given
-        int value1 = 4;
-        int value2 = 2;
+        int value1 = -4;
+        int value2 = -2;
         //when
         int result = Calculator.subtract(value1, value2);
         //then
-        Assertions.assertEquals(2, result);
+        Assertions.assertEquals(-2, result);
     }
 
     @Test
-    void shouldMultiplyTwoValues1and1() {
+    void shouldSubtractTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.subtract(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
+    }
+
+    @Test
+    void shouldMultiplyTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -61,10 +83,10 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldMultiplyTwoValues2and2() {
+    void shouldMultiplyTwoNegativeNumbers() {
         //given
-        int value1 = 2;
-        int value2 = 2;
+        int value1 = -2;
+        int value2 = -2;
         //when
         int result = Calculator.multiply(value1, value2);
         //then
@@ -72,7 +94,18 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldDivideTwoValues1and1() {
+    void shouldMultiplyTwoZeros() {
+        //given
+        int value1 = 0;
+        int value2 = 0;
+        //when
+        int result = Calculator.multiply(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
+    }
+
+    @Test
+    void shouldDivideTwoPositiveNumbers() {
         //given
         int value1 = 1;
         int value2 = 1;
@@ -83,13 +116,24 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldDivideTwoValues4and2() {
+    void shouldDivideTwoNegativeNumbers() {
         //given
-        int value1 = 4;
-        int value2 = 2;
+        int value1 = -4;
+        int value2 = -2;
         //when
         int result = Calculator.divide(value1, value2);
         //then
         Assertions.assertEquals(2, result);
+    }
+
+    @Test
+    void shouldDivideZeroByPositiveNumber() {
+        //given
+        int value1 = 0;
+        int value2 = 1;
+        //when
+        int result = Calculator.divide(value1, value2);
+        //then
+        Assertions.assertEquals(0, result);
     }
 }

@@ -6,13 +6,12 @@ import java.nio.file.Paths;
 
 public class DataDisplay {
     public static void dataDisplay() {
-        String content = "";
+        String content;
         try {
-            content = Files.readString(Paths.get("C:/Users/User/IdeaProjects/futurecollars/data.txt"));
+            content = Files.readString(Paths.get("C:/Users/User/IdeaProjects/futurecollars/lesson10/src/main/resources/data.txt"));
+            System.out.println(content);
         } catch (IOException exception) {
             exception.printStackTrace();
         }
-
-        System.out.println(content);
     }
 }
