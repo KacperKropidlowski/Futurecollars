@@ -11,7 +11,7 @@ public class PeselValidator {
 
         System.out.println("Enter PESEL:");
         String pesel = scanner.nextLine();
-        Pattern peselPattern = Pattern.compile("\\d{9}");
+        Pattern peselPattern = Pattern.compile("^\\d{11}$");
         Matcher peselMatcher = peselPattern.matcher(pesel);
         boolean matches = peselMatcher.find();
         if (matches) {
