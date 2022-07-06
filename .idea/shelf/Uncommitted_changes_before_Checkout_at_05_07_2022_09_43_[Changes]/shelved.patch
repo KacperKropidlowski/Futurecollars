@@ -1,0 +1,362 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"58372aa0-ca0c-4bbd-bc53-cf681abf800f\" name=\"Changes\" comment=\"Task 3\">\r\n      <change afterPath=\"$PROJECT_DIR$/lesson12/src/main/java/Task3/Node.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnFifoQueue.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnQueue.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnGenericList.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnList.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task4/Pair.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/lesson13/src/main/java/Task5/BubbleSort.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"JUnit5 Test Class\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2AKfr0fkOGnatOlqhy4JwElqVsp\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"ExtractSuperBase.RECENT_KEYS\">\r\n      <recent name=\"Task4\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"Task3\" />\r\n      <recent name=\"Task5\" />\r\n      <recent name=\"Task4\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"Task4\" />\r\n      <recent name=\"Task3\" />\r\n      <recent name=\"Task8\" />\r\n      <recent name=\"Task6\" />\r\n      <recent name=\"Task7\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.DataWordFinder\">\r\n    <configuration name=\"DataWordFinder\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Task4.DataWordFinder\" />\r\n      <module name=\"lesson10\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Task4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Names\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Task1.Names\" />\r\n      <module name=\"lesson12\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Task1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"wrongcar\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Task5.wrongcar\" />\r\n      <module name=\"lesson9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Task5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Task4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Task4\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Task4.EmployeeBuilderVersionTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"shouldRetrieveBaseSalaryWithBonus\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lesson9\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Task4.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Task4\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Task4.EmployeeBuilderVersionTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"shouldRetrieveEmployeeBonus\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"lesson12\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"lesson12\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.DataWordFinder\" />\r\n        <item itemvalue=\"Application.Names\" />\r\n        <item itemvalue=\"Application.wrongcar\" />\r\n        <item itemvalue=\"JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus\" />\r\n        <item itemvalue=\"JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"58372aa0-ca0c-4bbd-bc53-cf681abf800f\" name=\"Changes\" comment=\"\" />\r\n      <created>1654763395386</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1654763395386</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"Task 3 Lesson 9\">\r\n      <created>1655543128863</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655543128863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"Task 0 Lesson 10\">\r\n      <created>1655900113734</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655900113734</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"Task 1 Lesson 10\">\r\n      <created>1655901482909</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655901482909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"Task 0 Lesson 10\">\r\n      <created>1655975040647</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655975040647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"Task 0 Lesson 10\">\r\n      <created>1655975492695</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655975492695</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"Task 1 Lesson 11\">\r\n      <created>1655981205207</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655981205207</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"Task 2 Lesson 11\">\r\n      <created>1655983674066</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655983674066</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"Task 5 Lesson 11\">\r\n      <created>1655990596053</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655990596053</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"Task 3 Lesson 6 correction\">\r\n      <created>1655996595976</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655996595976</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"Task 5 Lesson 6 correction\">\r\n      <created>1655997960346</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655997960346</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"Task 4 Lesson 6 correction\">\r\n      <created>1655998649442</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655998649442</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"Task 6 Lesson 6 correction\">\r\n      <created>1656053945658</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656053945658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"Task 1 Lesson 7 correction\">\r\n      <created>1656055753816</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656055753816</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"Task 2 Lesson 7 correction\">\r\n      <created>1656066300285</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656066300285</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"Task 3 Lesson 7 correction\">\r\n      <created>1656067944035</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656067944035</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"Task 4 Lesson 7 correction\">\r\n      <created>1656078096774</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656078096774</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"Task 5 Lesson 7 correction\">\r\n      <created>1656078165750</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656078165750</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"Task 5 Lesson 7 correction2\">\r\n      <created>1656078219578</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656078219578</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00044\" summary=\"Task 2 Lesson 10\">\r\n      <created>1656145966157</created>\r\n      <option name=\"number\" value=\"00044\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656145966157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00045\" summary=\"Task 3 Lesson 10\">\r\n      <created>1656147634838</created>\r\n      <option name=\"number\" value=\"00045\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656147634838</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00046\" summary=\"Task 4 Lesson 10\">\r\n      <created>1656149607460</created>\r\n      <option name=\"number\" value=\"00046\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656149607460</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00047\" summary=\"Task 5 Lesson 10\">\r\n      <created>1656153813317</created>\r\n      <option name=\"number\" value=\"00047\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656153813317</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00048\" summary=\"Task 6 Lesson 10\">\r\n      <created>1656157318585</created>\r\n      <option name=\"number\" value=\"00048\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656157318585</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00049\" summary=\"Task 7 Lesson 10\">\r\n      <created>1656159579391</created>\r\n      <option name=\"number\" value=\"00049\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656159579391</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00050\" summary=\"Task 7 Lesson 10\">\r\n      <created>1656163331486</created>\r\n      <option name=\"number\" value=\"00050\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656163331486</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00051\" summary=\"Task 7 Lesson 10\">\r\n      <created>1656163403374</created>\r\n      <option name=\"number\" value=\"00051\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656163403374</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00052\" summary=\"Task 3 Lesson 6 correction\">\r\n      <created>1656228829258</created>\r\n      <option name=\"number\" value=\"00052\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656228829258</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00053\" summary=\"Task 5 Lesson 6 correction\">\r\n      <created>1656229396502</created>\r\n      <option name=\"number\" value=\"00053\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656229396502</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00054\" summary=\"Task 6 Lesson 6 correction\">\r\n      <created>1656229708073</created>\r\n      <option name=\"number\" value=\"00054\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656229708073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00055\" summary=\"Task 1 Lesson 12 problem\">\r\n      <created>1656252620069</created>\r\n      <option name=\"number\" value=\"00055\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656252620069</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00056\" summary=\"Task 2 Lesson 12\">\r\n      <created>1656259661979</created>\r\n      <option name=\"number\" value=\"00056\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656259661979</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00057\" summary=\"Task 8 Lesson 10\">\r\n      <created>1656309072468</created>\r\n      <option name=\"number\" value=\"00057\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656309072468</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00058\" summary=\"Task 9 Lesson 10\">\r\n      <created>1656311971654</created>\r\n      <option name=\"number\" value=\"00058\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656311971655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00059\" summary=\"Task 4 Lesson 11 problem\">\r\n      <created>1656314340340</created>\r\n      <option name=\"number\" value=\"00059\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656314340340</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00060\" summary=\"Task 4 Lesson 11 problem\">\r\n      <created>1656314376354</created>\r\n      <option name=\"number\" value=\"00060\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656314376354</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00061\" summary=\"Task 7 Lesson 11 problem\">\r\n      <created>1656330876689</created>\r\n      <option name=\"number\" value=\"00061\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656330876689</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00062\" summary=\"Task 4 and 7 Lesson 11 solution\">\r\n      <created>1656340700228</created>\r\n      <option name=\"number\" value=\"00062\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656340700228</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00063\" summary=\"Task 3 Lesson 8\">\r\n      <created>1656342772978</created>\r\n      <option name=\"number\" value=\"00063\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656342772978</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00064\" summary=\"Task 6 Lesson 8 correction\">\r\n      <created>1656343706037</created>\r\n      <option name=\"number\" value=\"00064\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656343706037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00065\" summary=\"Task 7 Lesson 8 correction\">\r\n      <created>1656359973717</created>\r\n      <option name=\"number\" value=\"00065\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656359973717</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00066\" summary=\"Task 6 Lesson 11\">\r\n      <created>1656434012466</created>\r\n      <option name=\"number\" value=\"00066\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656434012466</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00067\" summary=\"Task 8 Lesson 11\">\r\n      <created>1656435637772</created>\r\n      <option name=\"number\" value=\"00067\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656435637772</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00068\" summary=\"Task 1 Lesson 9\">\r\n      <created>1656437941307</created>\r\n      <option name=\"number\" value=\"00068\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656437941307</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00069\" summary=\"Task 2 Lesson 9 correction\">\r\n      <created>1656442061579</created>\r\n      <option name=\"number\" value=\"00069\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656442061579</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00070\" summary=\"Task 4 Lesson 12\">\r\n      <created>1656496243649</created>\r\n      <option name=\"number\" value=\"00070\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656496243649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00071\" summary=\"Task 4 Lesson 8\">\r\n      <created>1656519952677</created>\r\n      <option name=\"number\" value=\"00071\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656519952677</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00072\" summary=\"Task 3 Lesson 9 correction\">\r\n      <created>1656576072007</created>\r\n      <option name=\"number\" value=\"00072\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656576072007</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00073\" summary=\"Task 4 Lesson 9 correction\">\r\n      <created>1656580766354</created>\r\n      <option name=\"number\" value=\"00073\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656580766354</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00074\" summary=\"Task 4 Lesson 9 alternative version\">\r\n      <created>1656580934287</created>\r\n      <option name=\"number\" value=\"00074\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656580934287</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"75\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"30339797-4135-4530-83bb-aa7150ffdf6f\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"Lesson10Task4\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"30339797-4135-4530-83bb-aa7150ffdf6f\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"Lesson10Task4\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"master\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Task 5 Lesson 10\" />\r\n    <MESSAGE value=\"Task 6 Lesson 10\" />\r\n    <MESSAGE value=\"Task 7 Lesson 10\" />\r\n    <MESSAGE value=\"Task 3 Lesson 6 correction\" />\r\n    <MESSAGE value=\"Task 5 Lesson 6 correction\" />\r\n    <MESSAGE value=\"Task 6 Lesson 6 correction\" />\r\n    <MESSAGE value=\"Task 1 Lesson 12 problem\" />\r\n    <MESSAGE value=\"Task 2 Lesson 12\" />\r\n    <MESSAGE value=\"Task 8 Lesson 10\" />\r\n    <MESSAGE value=\"Task 9 Lesson 10\" />\r\n    <MESSAGE value=\"Task 4 Lesson 11 problem\" />\r\n    <MESSAGE value=\"Task 7 Lesson 11 problem\" />\r\n    <MESSAGE value=\"Task 4 and 7 Lesson 11 solution\" />\r\n    <MESSAGE value=\"Task 3 Lesson 8\" />\r\n    <MESSAGE value=\"Task 6 Lesson 8 correction\" />\r\n    <MESSAGE value=\"Task 7 Lesson 8 correction\" />\r\n    <MESSAGE value=\"Task 6 Lesson 11\" />\r\n    <MESSAGE value=\"Task 8 Lesson 11\" />\r\n    <MESSAGE value=\"Task 1 Lesson 9\" />\r\n    <MESSAGE value=\"Task 2 Lesson 9 correction\" />\r\n    <MESSAGE value=\"Task 4 Lesson 12\" />\r\n    <MESSAGE value=\"Task 4 Lesson 8\" />\r\n    <MESSAGE value=\"Task 3 Lesson 9 correction\" />\r\n    <MESSAGE value=\"Task 4 Lesson 9 correction\" />\r\n    <MESSAGE value=\"Task 4 Lesson 9 alternative version\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Task 4 Lesson 9 alternative version\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.NullPointerException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"21\" />\r\n        </breakpoint>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.ArithmeticException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"25\" />\r\n        </breakpoint>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"Task8.WrongTypeOfDataException\" package=\"Task8\" />\r\n          <option name=\"timeStamp\" value=\"30\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9948c5b98fb2f0b221c6c12f5fb1bb4ee9efb5df)
++++ b/.idea/workspace.xml	(date 1657006962424)
+@@ -4,20 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3">
+-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/Node.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnFifoQueue.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnQueue.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnGenericList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task4/Pair.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task5/BubbleSort.java" afterDir="false" />
++    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="code refactoring">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -37,15 +25,10 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="Lesson9Task4" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -182,11 +165,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.DataWordFinder" />
+-        <item itemvalue="Application.Names" />
+-        <item itemvalue="Application.wrongcar" />
+         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
+         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
++        <item itemvalue="Application.wrongcar" />
++        <item itemvalue="Application.Names" />
++        <item itemvalue="Application.DataWordFinder" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -199,19 +182,138 @@
+       <option name="presentableId" value="Default" />
+       <updated>1654763395386</updated>
+     </task>
+-    <task id="LOCAL-00026" summary="Task 3 Lesson 9">
+-      <created>1655543128863</created>
+-      <option name="number" value="00026" />
+-      <option name="presentableId" value="LOCAL-00026" />
++    <task id="LOCAL-00056" summary="Task 2 Lesson 12">
++      <created>1656259661979</created>
++      <option name="number" value="00056" />
++      <option name="presentableId" value="LOCAL-00056" />
++      <option name="project" value="LOCAL" />
++      <updated>1656259661979</updated>
++    </task>
++    <task id="LOCAL-00057" summary="Task 8 Lesson 10">
++      <created>1656309072468</created>
++      <option name="number" value="00057" />
++      <option name="presentableId" value="LOCAL-00057" />
++      <option name="project" value="LOCAL" />
++      <updated>1656309072468</updated>
++    </task>
++    <task id="LOCAL-00058" summary="Task 9 Lesson 10">
++      <created>1656311971654</created>
++      <option name="number" value="00058" />
++      <option name="presentableId" value="LOCAL-00058" />
++      <option name="project" value="LOCAL" />
++      <updated>1656311971655</updated>
++    </task>
++    <task id="LOCAL-00059" summary="Task 4 Lesson 11 problem">
++      <created>1656314340340</created>
++      <option name="number" value="00059" />
++      <option name="presentableId" value="LOCAL-00059" />
++      <option name="project" value="LOCAL" />
++      <updated>1656314340340</updated>
++    </task>
++    <task id="LOCAL-00060" summary="Task 4 Lesson 11 problem">
++      <created>1656314376354</created>
++      <option name="number" value="00060" />
++      <option name="presentableId" value="LOCAL-00060" />
++      <option name="project" value="LOCAL" />
++      <updated>1656314376354</updated>
++    </task>
++    <task id="LOCAL-00061" summary="Task 7 Lesson 11 problem">
++      <created>1656330876689</created>
++      <option name="number" value="00061" />
++      <option name="presentableId" value="LOCAL-00061" />
++      <option name="project" value="LOCAL" />
++      <updated>1656330876689</updated>
++    </task>
++    <task id="LOCAL-00062" summary="Task 4 and 7 Lesson 11 solution">
++      <created>1656340700228</created>
++      <option name="number" value="00062" />
++      <option name="presentableId" value="LOCAL-00062" />
++      <option name="project" value="LOCAL" />
++      <updated>1656340700228</updated>
++    </task>
++    <task id="LOCAL-00063" summary="Task 3 Lesson 8">
++      <created>1656342772978</created>
++      <option name="number" value="00063" />
++      <option name="presentableId" value="LOCAL-00063" />
+       <option name="project" value="LOCAL" />
+-      <updated>1655543128863</updated>
++      <updated>1656342772978</updated>
+     </task>
+-    <task id="LOCAL-00027" summary="Task 0 Lesson 10">
+-      <created>1655900113734</created>
+-      <option name="number" value="00027" />
+-      <option name="presentableId" value="LOCAL-00027" />
++    <task id="LOCAL-00064" summary="Task 6 Lesson 8 correction">
++      <created>1656343706037</created>
++      <option name="number" value="00064" />
++      <option name="presentableId" value="LOCAL-00064" />
+       <option name="project" value="LOCAL" />
+-      <updated>1655900113734</updated>
++      <updated>1656343706037</updated>
++    </task>
++    <task id="LOCAL-00065" summary="Task 7 Lesson 8 correction">
++      <created>1656359973717</created>
++      <option name="number" value="00065" />
++      <option name="presentableId" value="LOCAL-00065" />
++      <option name="project" value="LOCAL" />
++      <updated>1656359973717</updated>
++    </task>
++    <task id="LOCAL-00066" summary="Task 6 Lesson 11">
++      <created>1656434012466</created>
++      <option name="number" value="00066" />
++      <option name="presentableId" value="LOCAL-00066" />
++      <option name="project" value="LOCAL" />
++      <updated>1656434012466</updated>
++    </task>
++    <task id="LOCAL-00067" summary="Task 8 Lesson 11">
++      <created>1656435637772</created>
++      <option name="number" value="00067" />
++      <option name="presentableId" value="LOCAL-00067" />
++      <option name="project" value="LOCAL" />
++      <updated>1656435637772</updated>
++    </task>
++    <task id="LOCAL-00068" summary="Task 1 Lesson 9">
++      <created>1656437941307</created>
++      <option name="number" value="00068" />
++      <option name="presentableId" value="LOCAL-00068" />
++      <option name="project" value="LOCAL" />
++      <updated>1656437941307</updated>
++    </task>
++    <task id="LOCAL-00069" summary="Task 2 Lesson 9 correction">
++      <created>1656442061579</created>
++      <option name="number" value="00069" />
++      <option name="presentableId" value="LOCAL-00069" />
++      <option name="project" value="LOCAL" />
++      <updated>1656442061579</updated>
++    </task>
++    <task id="LOCAL-00070" summary="Task 4 Lesson 12">
++      <created>1656496243649</created>
++      <option name="number" value="00070" />
++      <option name="presentableId" value="LOCAL-00070" />
++      <option name="project" value="LOCAL" />
++      <updated>1656496243649</updated>
++    </task>
++    <task id="LOCAL-00071" summary="Task 4 Lesson 8">
++      <created>1656519952677</created>
++      <option name="number" value="00071" />
++      <option name="presentableId" value="LOCAL-00071" />
++      <option name="project" value="LOCAL" />
++      <updated>1656519952677</updated>
++    </task>
++    <task id="LOCAL-00072" summary="Task 3 Lesson 9 correction">
++      <created>1656576072007</created>
++      <option name="number" value="00072" />
++      <option name="presentableId" value="LOCAL-00072" />
++      <option name="project" value="LOCAL" />
++      <updated>1656576072007</updated>
++    </task>
++    <task id="LOCAL-00073" summary="Task 4 Lesson 9 correction">
++      <created>1656580766354</created>
++      <option name="number" value="00073" />
++      <option name="presentableId" value="LOCAL-00073" />
++      <option name="project" value="LOCAL" />
++      <updated>1656580766354</updated>
++    </task>
++    <task id="LOCAL-00074" summary="Task 4 Lesson 9 alternative version">
++      <created>1656580934287</created>
++      <option name="number" value="00074" />
++      <option name="presentableId" value="LOCAL-00074" />
++      <option name="project" value="LOCAL" />
++      <updated>1656580934287</updated>
+     </task>
+     <task id="LOCAL-00028" summary="Task 1 Lesson 10">
+       <created>1655901482909</created>
+@@ -409,139 +511,6 @@
+       <option name="project" value="LOCAL" />
+       <updated>1656252620069</updated>
+     </task>
+-    <task id="LOCAL-00056" summary="Task 2 Lesson 12">
+-      <created>1656259661979</created>
+-      <option name="number" value="00056" />
+-      <option name="presentableId" value="LOCAL-00056" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656259661979</updated>
+-    </task>
+-    <task id="LOCAL-00057" summary="Task 8 Lesson 10">
+-      <created>1656309072468</created>
+-      <option name="number" value="00057" />
+-      <option name="presentableId" value="LOCAL-00057" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656309072468</updated>
+-    </task>
+-    <task id="LOCAL-00058" summary="Task 9 Lesson 10">
+-      <created>1656311971654</created>
+-      <option name="number" value="00058" />
+-      <option name="presentableId" value="LOCAL-00058" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656311971655</updated>
+-    </task>
+-    <task id="LOCAL-00059" summary="Task 4 Lesson 11 problem">
+-      <created>1656314340340</created>
+-      <option name="number" value="00059" />
+-      <option name="presentableId" value="LOCAL-00059" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656314340340</updated>
+-    </task>
+-    <task id="LOCAL-00060" summary="Task 4 Lesson 11 problem">
+-      <created>1656314376354</created>
+-      <option name="number" value="00060" />
+-      <option name="presentableId" value="LOCAL-00060" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656314376354</updated>
+-    </task>
+-    <task id="LOCAL-00061" summary="Task 7 Lesson 11 problem">
+-      <created>1656330876689</created>
+-      <option name="number" value="00061" />
+-      <option name="presentableId" value="LOCAL-00061" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656330876689</updated>
+-    </task>
+-    <task id="LOCAL-00062" summary="Task 4 and 7 Lesson 11 solution">
+-      <created>1656340700228</created>
+-      <option name="number" value="00062" />
+-      <option name="presentableId" value="LOCAL-00062" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656340700228</updated>
+-    </task>
+-    <task id="LOCAL-00063" summary="Task 3 Lesson 8">
+-      <created>1656342772978</created>
+-      <option name="number" value="00063" />
+-      <option name="presentableId" value="LOCAL-00063" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656342772978</updated>
+-    </task>
+-    <task id="LOCAL-00064" summary="Task 6 Lesson 8 correction">
+-      <created>1656343706037</created>
+-      <option name="number" value="00064" />
+-      <option name="presentableId" value="LOCAL-00064" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656343706037</updated>
+-    </task>
+-    <task id="LOCAL-00065" summary="Task 7 Lesson 8 correction">
+-      <created>1656359973717</created>
+-      <option name="number" value="00065" />
+-      <option name="presentableId" value="LOCAL-00065" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656359973717</updated>
+-    </task>
+-    <task id="LOCAL-00066" summary="Task 6 Lesson 11">
+-      <created>1656434012466</created>
+-      <option name="number" value="00066" />
+-      <option name="presentableId" value="LOCAL-00066" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656434012466</updated>
+-    </task>
+-    <task id="LOCAL-00067" summary="Task 8 Lesson 11">
+-      <created>1656435637772</created>
+-      <option name="number" value="00067" />
+-      <option name="presentableId" value="LOCAL-00067" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656435637772</updated>
+-    </task>
+-    <task id="LOCAL-00068" summary="Task 1 Lesson 9">
+-      <created>1656437941307</created>
+-      <option name="number" value="00068" />
+-      <option name="presentableId" value="LOCAL-00068" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656437941307</updated>
+-    </task>
+-    <task id="LOCAL-00069" summary="Task 2 Lesson 9 correction">
+-      <created>1656442061579</created>
+-      <option name="number" value="00069" />
+-      <option name="presentableId" value="LOCAL-00069" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656442061579</updated>
+-    </task>
+-    <task id="LOCAL-00070" summary="Task 4 Lesson 12">
+-      <created>1656496243649</created>
+-      <option name="number" value="00070" />
+-      <option name="presentableId" value="LOCAL-00070" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656496243649</updated>
+-    </task>
+-    <task id="LOCAL-00071" summary="Task 4 Lesson 8">
+-      <created>1656519952677</created>
+-      <option name="number" value="00071" />
+-      <option name="presentableId" value="LOCAL-00071" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656519952677</updated>
+-    </task>
+-    <task id="LOCAL-00072" summary="Task 3 Lesson 9 correction">
+-      <created>1656576072007</created>
+-      <option name="number" value="00072" />
+-      <option name="presentableId" value="LOCAL-00072" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656576072007</updated>
+-    </task>
+-    <task id="LOCAL-00073" summary="Task 4 Lesson 9 correction">
+-      <created>1656580766354</created>
+-      <option name="number" value="00073" />
+-      <option name="presentableId" value="LOCAL-00073" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656580766354</updated>
+-    </task>
+-    <task id="LOCAL-00074" summary="Task 4 Lesson 9 alternative version">
+-      <created>1656580934287</created>
+-      <option name="number" value="00074" />
+-      <option name="presentableId" value="LOCAL-00074" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1656580934287</updated>
+-    </task>
+     <option name="localTasksCounter" value="75" />
+     <servers />
+   </component>
+@@ -586,7 +555,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="Lesson10Task4" />
++                        <option value="Lesson9Task4" />
+                       </list>
+                     </value>
+                   </entry>

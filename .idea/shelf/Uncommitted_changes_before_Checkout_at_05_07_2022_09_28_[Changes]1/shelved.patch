@@ -1,0 +1,92 @@
+Index: lesson12/src/main/java/Task3/Node.java
+===================================================================
+diff --git a/lesson12/src/main/java/Task3/Node.java b/lesson12/src/main/java/Task3/Node.java
+new file mode 100644
+--- /dev/null	
++++ b/lesson12/src/main/java/Task3/Node.java	
+@@ -0,0 +1,32 @@
++package Task3;
++
++public class Node {
++    Node next;
++    Object data;
++
++    public Node(Object newData){
++        data = newData;
++        next = null;
++    }
++
++    public Node(Object newData, Node newNext){
++        data = newData;
++        next = newNext;
++    }
++
++    public Object getData(){
++        return data;
++    }
++
++    public Node getNext(){
++        return next;
++    }
++
++    public void setData(Object newData){
++        data = newData;
++    }
++
++    public void setNext(Node newNode){
++        next = newNode;
++    }
++}
+Index: lesson12/src/main/java/Task3/OwnLinkedList.java
+===================================================================
+diff --git a/lesson12/src/main/java/Task3/OwnLinkedList.java b/lesson12/src/main/java/Task3/OwnLinkedList.java
+new file mode 100644
+--- /dev/null	
++++ b/lesson12/src/main/java/Task3/OwnLinkedList.java	
+@@ -0,0 +1,46 @@
++package Task3;
++
++public class OwnLinkedList {
++
++    Node head;
++    int size;
++
++    public OwnLinkedList(){
++        head = null;
++        size = 0;
++    }
++
++    public OwnLinkedList(Node newHead){
++        head = newHead;
++        size = 0;
++    }
++
++    public void add(Object newData){
++        Node temp = new Node(newData);
++        Node current = head;
++        while (current.getNext() != null){
++            current = current.getNext();
++        }
++        current.setNext(temp);
++        size++;
++    }
++
++    public void remove(){
++
++    }
++
++    public Object get(int index){
++        if (index <=0){
++            return null;
++        }
++        Node current = head;
++        for (int i = 1; i < index; i++) {
++            current = current.getNext();
++        }
++        return current.getData();
++    }
++
++    public int size() {
++        return size;
++    }
++}
