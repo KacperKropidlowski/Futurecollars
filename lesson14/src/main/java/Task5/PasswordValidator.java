@@ -19,7 +19,7 @@ public class PasswordValidator {
             } else if (password.contains("22")) {
                 System.out.println("Come up with a better password buddy!");
             } else
-                System.out.println("Your password " + password + " is strong and powerful buddy!");
+                System.out.println("Your password " + password + " is strong buddy!");
         } else {
             System.out.println("Come up with a better password buddy!");
         }
