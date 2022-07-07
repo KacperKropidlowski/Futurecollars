@@ -13,7 +13,7 @@ public class DateOfBirth {
         String dateOfBirthInput = scanner.nextLine();
 
         LocalDate dateNow = LocalDate.now();
-        Pattern datePattern = Pattern.compile("^\\d{4}-\\d{2}-\\d{2}$");
+        Pattern datePattern = Pattern.compile("^(1\\d{3}|20[0-1]\\d|202[0-2])-(0[1-9]|1[0-2])-(0[1-9]|1\\d|2\\d|3[0-1])$");
         Matcher dateMatcher = datePattern.matcher(dateOfBirthInput);
 
         boolean matches = dateMatcher.find();
