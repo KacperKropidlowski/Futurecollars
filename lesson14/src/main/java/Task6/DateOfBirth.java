@@ -26,9 +26,4 @@ public class DateOfBirth {
             System.out.println("Wrong format of date!");
         }
     }
-
-    public static void main(String[] args) {
-        DateOfBirth s = new DateOfBirth();
-        s.analyzeDateOfBirth();
-    }
 }
