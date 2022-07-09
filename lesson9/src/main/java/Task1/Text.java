@@ -1,19 +1,27 @@
 package Task1;
 
 public class Text {
-    private static boolean checkExistenceOfContent(String text) {
+    private boolean hasContent(String text) {
         return !text.isBlank();
     }
 
-    public static void isPalindromeAndGetTextLength(String text) {
-        try {
-            if (checkExistenceOfContent(text)) {
-                System.out.println(text.equals(new StringBuilder(text).reverse().toString()));
-                System.out.println(text.length());
-            }
-        } catch (NullPointerException e) {
-            System.out.println("null in input");
-        }
+    private boolean isPalindrome(String text) {
+        return text.toLowerCase().equals(new StringBuilder(text.toLowerCase()).reverse().toString());
+    }
+
+    private void getLength(String text) {
+        System.out.println("Text length: " + text.length());
+    }
+
+    private void getPalindrome(String text) {
+        System.out.println("Text is palindrome: " + isPalindrome(text));
+    }
+
+    public void analyzeText(String text) {
+        if (hasContent(text)) {
+            getPalindrome(text);
+            getLength(text);
+        } else throw new IllegalArgumentException("Text is blank!");
     }
 }
 
