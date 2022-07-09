@@ -1,11 +1,5 @@
 package Task6;
 
-enum Currency {
-    EUR,
-    USD,
-    GBP
-}
-
 public class CurrencyExchanger {
     ExchangeRateProvider exchangeRateProvider;
 
