@@ -25,14 +25,14 @@ class CurrencyExchangerTest {
         double actual = currencyExchanger.sellPolishZloty(amount, currency);
 
         // then
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual, 2);
     }
 
     private static Stream<Arguments> provideArgumentsForShouldSellPolishZlotyTest() {
         return Stream.of(
-                Arguments.of(100, Currency.EUR, 21.462451441203616),
-                Arguments.of(100, Currency.USD, 22.610622470436613),
-                Arguments.of(100, Currency.GBP, 18.426386585590567)
+                Arguments.of(100, Currency.EUR, 21.46),
+                Arguments.of(100, Currency.USD, 22.61),
+                Arguments.of(100, Currency.GBP, 18.42)
         );
     }
 
@@ -51,14 +51,14 @@ class CurrencyExchangerTest {
         double actual = currencyExchanger.buyPolishZloty(amount, currency);
 
         // then
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual, 2);
     }
 
     private static Stream<Arguments> provideArgumentsForShouldBuyPolishZlotyTest() {
         return Stream.of(
-                Arguments.of(100, Currency.EUR, 21.037130535394972),
-                Arguments.of(100, Currency.USD, 22.16262937434897),
-                Arguments.of(100, Currency.GBP, 18.061626268829247)
+                Arguments.of(100, Currency.EUR, 21.03),
+                Arguments.of(100, Currency.USD, 22.16),
+                Arguments.of(100, Currency.GBP, 18.06)
         );
     }
 }
