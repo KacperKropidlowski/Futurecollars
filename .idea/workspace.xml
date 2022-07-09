@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="code correction">
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Person comparison correction">
+      <change afterPath="$PROJECT_DIR$/lesson14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15/src/main/java/Task1/DivisibleByThreeChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson12Task1" />
+        <entry key="$PROJECT_DIR$" value="Lesson15Task1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
@@ -68,6 +74,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kappi\IdeaProjects\Futurecollars\lesson14" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Task4" />
@@ -85,36 +94,10 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
-    <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
-      <module name="lesson10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3.MyLinkedList" />
-      <module name="lesson12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Names" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.Names" />
-      <module name="lesson12" />
+  <component name="RunManager" selected="Application.DivisibleByThreeChecker">
+    <configuration name="DivisibleByThreeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.DivisibleByThreeChecker" />
+      <module name="lesson15" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Task1.*" />
@@ -125,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task3.OwnLinkedList" />
-      <module name="lesson12" />
+    <configuration name="PeselValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.PeselValidator" />
+      <module name="lesson14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task3.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,39 +121,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonsComparisonDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task4.PersonsComparisonDisplay" />
-      <module name="lesson12" />
+    <configuration name="wrongcar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.wrongcar" />
+      <module name="lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson9" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="lesson12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="lesson12" />
-      <option name="filePath" />
+    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveEmployeeBonus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.OwnLinkedList" />
-        <item itemvalue="Application.PersonsComparisonDisplay" />
-        <item itemvalue="Application.Names" />
-        <item itemvalue="Application.DataWordFinder" />
+        <item itemvalue="Application.DivisibleByThreeChecker" />
+        <item itemvalue="Application.PeselValidator" />
+        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
+        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
+        <item itemvalue="Application.wrongcar" />
       </list>
     </recent_temporary>
   </component>
