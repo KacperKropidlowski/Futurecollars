@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="code correction">
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Next person comparison correction">
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/java/Task3/UrlScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson14/src/main/java/Task3/UrlValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson14/src/main/java/Task3/UrlValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,20 +87,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
-    <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
-      <module name="lesson10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UrlScanner">
     <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task3.MyLinkedList" />
       <module name="lesson12" />
@@ -151,26 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="lesson12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="lesson12" />
-      <option name="filePath" />
+    <configuration name="UrlScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3.UrlScanner" />
+      <module name="lesson14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UrlScanner" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.OwnLinkedList" />
         <item itemvalue="Application.PersonsComparisonDisplay" />
         <item itemvalue="Application.Names" />
-        <item itemvalue="Application.DataWordFinder" />
       </list>
     </recent_temporary>
   </component>
