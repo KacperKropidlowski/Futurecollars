@@ -1,52 +1,30 @@
 package Task5;
 
-public class Car implements Vehicle, Engine {
+public class Car implements Vehicle {
 
-    private boolean isEngineStarted = false;
-    private boolean isCarRiding = false;
+    CarEngine carEngine = new CarEngine();
 
-    public void setEngineStarted(boolean engineStarted) {
-        isEngineStarted = engineStarted;
-    }
-
-    public void setCarRiding(boolean carRiding) {
-        isCarRiding = carRiding;
-    }
-
-    @Override
-    public void startEngine() {
-        setEngineStarted(true);
-        System.out.println("Engine started!");
-    }
-
-    @Override
-    public void stopEngine() {
-        if (isCarRiding) {
-            System.out.println("Stop car first!");
-        } else {
-            setEngineStarted(false);
-            System.out.println("Engine stopped!");
-        }
-    }
+    private boolean isMoving = false;
 
     @Override
     public void start() {
-        if (isEngineStarted) {
-            setCarRiding(true);
-            System.out.println("Enjoy Your car ride!");
+        if (isMoving) {
+            System.out.println("Already started!");
         } else {
-            System.out.println("Turn on engine first!");
+            carEngine.start();
+            this.isMoving = true;
+            System.out.println("Enjoy your ride!");
         }
     }
 
     @Override
     public void stop() {
-        if (isCarRiding) {
-            setCarRiding(false);
-            System.out.println("Car stopped!");
+        if (!isMoving) {
+            System.out.println("Already stopped!");
         } else {
-            System.out.println("It is impossible to stop a car that is not riding!");
+            carEngine.stop();
+            this.isMoving = false;
+            System.out.println("Car stopped!");
         }
-
     }
 }
