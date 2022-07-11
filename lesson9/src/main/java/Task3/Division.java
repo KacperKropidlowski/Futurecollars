@@ -7,6 +7,12 @@ public class Division implements CalculatorOperation {
     public double calculate(double right, double left) {
         if (right != 0) {
             result = right / left;
-        } return result;
+        }
+        return result;
+    }
+
+    @Override
+    public String getSign() {
+        return "/";
     }
 }

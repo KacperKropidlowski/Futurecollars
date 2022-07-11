@@ -6,4 +6,9 @@ public class Addition implements CalculatorOperation {
     public double calculate(double left, double right) {
         return left + right;
     }
+
+    @Override
+    public String getSign() {
+        return "+";
+    }
 }
