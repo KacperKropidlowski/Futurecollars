@@ -1,10 +1,6 @@
 package Task2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.function.Predicate;
+import java.util.*;
 
 public class PizzaComparator {
     public static void main(String[] args) {
@@ -26,7 +22,7 @@ public class PizzaComparator {
         Pizza margherita = new Pizza("Margherita", margheritaCompsition, 850, true);
         List<Ingredient> diavolaExtraComposition = Arrays.asList(Ingredient.mozzarella, Ingredient.tomato, Ingredient.salami, Ingredient.onion, Ingredient.pepper);
         Pizza diavolaExtra = new Pizza("Diavola Extra", diavolaExtraComposition, 1350, false);
-        List<Ingredient> marinaraComposition = Arrays.asList(Ingredient.tomato);
+        List<Ingredient> marinaraComposition = List.of(Ingredient.tomato);
         Pizza marinara = new Pizza("Marinara", marinaraComposition, 700, true);
 
         List<Pizza> menu = Arrays.asList(marinara, diavolaExtra, margherita, vegetariana, funghi, bianca, verona, parma, roma, diavola);
@@ -51,11 +47,17 @@ public class PizzaComparator {
         System.out.println(menu
                 .stream()
                 .allMatch(pizza -> pizza.getComposition().contains(Ingredient.mozzarella)));
-        System.out.println("\nPizza with the most calories:");
-        menu
+        System.out.println("\nPizza with the most amount of calories:");
+        Pizza maxCalories = menu
                 .stream()
-                .max(Comparator.comparingInt((pizza1, pizza2) ->Integer.compare(pizza1.getCalories(), pizza2.getCalories()));
-
-
+                .max(Comparator.comparing(Pizza::getCalories))
+                .get();
+        System.out.println(maxCalories.getName());
+        System.out.println("\nPizza with the least amount of calories");
+        Pizza minCalories = menu
+                .stream()
+                .min(Comparator.comparing((Pizza::getCalories)))
+                .get();
+        System.out.println(minCalories.getName());
     }
 }
