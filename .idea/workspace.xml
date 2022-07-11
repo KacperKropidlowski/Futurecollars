@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Task 3">
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task1/OwnMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnFifoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task2/OwnQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnGenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task4/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task5/BubbleSort.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Weekdays to string converter correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/src/main/java/Task6/CurrencyExchanger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lesson8Task7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +87,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataWordFinder">
+  <component name="RunManager" selected="JUnit.CurrencyExchangerTest.shouldBuyPolishZloty">
     <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
       <module name="lesson10" />
@@ -122,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wrongcar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task5.wrongcar" />
+    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.Text" />
       <module name="lesson9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task5.*" />
+          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,58 +127,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
+    <configuration name="CurrencyExchangerTest.shouldBuyPolishZloty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task4.*" />
+          <option name="PATTERN" value="Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
+      <option name="PACKAGE_NAME" value="Task6" />
+      <option name="MAIN_CLASS_NAME" value="Task6.CurrencyExchangerTest" />
+      <option name="METHOD_NAME" value="shouldBuyPolishZloty(double,Task6.Currency,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
+    <configuration name="CurrencyExchangerTest.shouldSellPolishZloty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task4.*" />
+          <option name="PATTERN" value="Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveEmployeeBonus" />
+      <option name="PACKAGE_NAME" value="Task6" />
+      <option name="MAIN_CLASS_NAME" value="Task6.CurrencyExchangerTest" />
+      <option name="METHOD_NAME" value="shouldSellPolishZloty(double,Task6.Currency,double)" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="lesson12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="lesson12" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataWordFinder" />
+        <item itemvalue="JUnit.CurrencyExchangerTest.shouldSellPolishZloty" />
+        <item itemvalue="JUnit.CurrencyExchangerTest.shouldBuyPolishZloty" />
+        <item itemvalue="Application.Text" />
         <item itemvalue="Application.Names" />
-        <item itemvalue="Application.wrongcar" />
-        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
-        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
+        <item itemvalue="Application.DataWordFinder" />
       </list>
     </recent_temporary>
   </component>

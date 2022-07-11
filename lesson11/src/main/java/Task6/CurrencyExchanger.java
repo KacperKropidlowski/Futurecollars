@@ -1,7 +1,7 @@
 package Task6;
 
 public class CurrencyExchanger {
-    ExchangeRateProvider exchangeRateProvider;
+    private ExchangeRateProvider exchangeRateProvider;
 
     public CurrencyExchanger(ExchangeRateProvider exchangeRateProvider) {
         this.exchangeRateProvider = exchangeRateProvider;
