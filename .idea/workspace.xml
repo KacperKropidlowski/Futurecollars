@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Person comparison correction">
-      <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/CarEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Code refactor 2 correction">
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Addition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/CalculatorOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/CalculatorOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Multiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Subtraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/src/test/java/Task3/UpgradedCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/test/java/Task3/UpgradedCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Task 0 Lesson 10">
-      <created>1655900113734</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1655900113734</updated>
     </task>
     <task id="LOCAL-00028" summary="Task 1 Lesson 10">
       <created>1655901482909</created>
@@ -541,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657361460867</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Code refactor 2 correction">
+      <created>1657533138721</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1657533138721</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 6 Lesson 10" />
     <MESSAGE value="Task 7 Lesson 10" />
     <MESSAGE value="Task 3 Lesson 6 correction" />
     <MESSAGE value="Task 5 Lesson 6 correction" />
@@ -653,7 +646,8 @@
     <MESSAGE value="Task 4 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 alternative version" />
     <MESSAGE value="Person comparison correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person comparison correction" />
+    <MESSAGE value="Code refactor 2 correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactor 2 correction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
