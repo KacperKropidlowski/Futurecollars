@@ -1,6 +1,6 @@
 package Task5;
 
 public interface Engine {
-    void startEngine();
-    void stopEngine();
+    void start();
+    void stop();
 }
