@@ -36,13 +36,12 @@ public class PizzaComparator {
                 .stream()
                 .filter(pizza -> pizza.getComposition().contains(Ingredient.celery))
                 .forEach(pizza -> System.out.println(pizza.getName()));
-        System.out.println("\nVegetarian pizzas with tomato and pepper:");
-        menu
+        System.out.println("\nVegetarian pizza with tomato and pepper exists:");
+        boolean isVegetarianPizzaWithTomatoAndPepperExisting = menu
                 .stream()
-                .filter(Pizza::isVegetarian)
-                .filter(pizza -> pizza.getComposition().contains(Ingredient.tomato))
-                .filter(pizza -> pizza.getComposition().contains(Ingredient.pepper))
-                .forEach(pizza -> System.out.println(pizza.getName()));
+                .anyMatch(pizza -> (pizza.isVegetarian()) && (pizza.getComposition().contains(Ingredient.tomato)) && (pizza.getComposition().contains(Ingredient.pepper)));
+        System.out.println(isVegetarianPizzaWithTomatoAndPepperExisting);
+
         System.out.println("\nDoes all pizzas contains mozzarella:");
         System.out.println(menu
                 .stream()
