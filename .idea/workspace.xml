@@ -15,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task3/OwnList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task4/Pair.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/Task5/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/src/main/java/Task4/DataWordFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson12/src/main/java/Task1/Names.java" afterDir="false" />
     </list>
@@ -45,7 +44,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +96,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataWordFinder">
+  <component name="RunManager" selected="Application.PersonsComparisonDisplay">
     <configuration name="DataWordFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.DataWordFinder" />
       <module name="lesson10" />
@@ -122,6 +123,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonsComparisonDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.PersonsComparisonDisplay" />
+      <module name="lesson12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wrongcar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task5.wrongcar" />
       <module name="lesson9" />
@@ -131,22 +145,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,26 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="lesson12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="lesson12" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonsComparisonDisplay" />
         <item itemvalue="Application.DataWordFinder" />
         <item itemvalue="Application.Names" />
         <item itemvalue="Application.wrongcar" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
-        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Task 3 Lesson 9">
-      <created>1655543128863</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1655543128863</updated>
     </task>
     <task id="LOCAL-00027" summary="Task 0 Lesson 10">
       <created>1655900113734</created>
@@ -542,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656580934287</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="One more currency exchanger correction">
+      <created>1657546926786</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1657546926786</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 5 Lesson 10" />
     <MESSAGE value="Task 6 Lesson 10" />
     <MESSAGE value="Task 7 Lesson 10" />
     <MESSAGE value="Task 3 Lesson 6 correction" />
@@ -654,7 +638,8 @@
     <MESSAGE value="Task 3 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 alternative version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 9 alternative version" />
+    <MESSAGE value="One more currency exchanger correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="One more currency exchanger correction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

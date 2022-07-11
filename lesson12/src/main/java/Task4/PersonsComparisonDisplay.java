@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PersonsComparisonDisplay {
     public static void main(String[] args) {
-        ArrayList<Person> persons = new ArrayList<>();
+        List<Person> persons = new ArrayList<>();
         persons.add(new Person("Jacek", "Placek", 1999, 180, 81.1));
         persons.add(new Person("Janek", "Dzbanek", 1997, 178, 76.5));
         persons.add(new Person("Anka", "Szklanka", 1996, 168, 62.3));
@@ -16,17 +16,16 @@ public class PersonsComparisonDisplay {
         for (Person person : persons) {
             System.out.println(person.getName());
         }
-        System.out.println("");
+        System.out.println();
 
         persons.sort(Comparator.comparingInt(Person::getHeight));
         System.out.println("Persons from lowest to highest:");
         for (Person person : persons) {
             System.out.println(person.getName());
         }
-        System.out.println("");
+        System.out.println();
 
-        persons.sort(Comparator.comparingDouble(Person::getWeight));
-        Collections.reverse(persons);
+        persons.sort(Comparator.comparingDouble(Person::getWeight).reversed());
 
         System.out.println("Persons from heaviest to lightest:");
         for (Person person : persons) {
