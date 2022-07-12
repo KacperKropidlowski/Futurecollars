@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 public class NumberClassifier {
 
     public static void main(String[] args) {
+        NumberClassifier numberClassifier = new NumberClassifier();
         ArrayList<String> numbers = new ArrayList<>();
         numbers.add("342");
         numbers.add("5.34");
@@ -21,36 +22,52 @@ public class NumberClassifier {
         numbers.add("5");
 
         System.out.println("All arguments: " + numbers);
-        classifyNumbers(numbers);
+        numberClassifier.classifyNumbers(numbers);
 
     }
 
-    public static void classifyNumbers (ArrayList<String> numbers){
-        ArrayList<String> integers = new ArrayList<>();
-        ArrayList<String> floatingPointNumbers = new ArrayList<>();
-        ArrayList<String> numbersInScientificNotation = new ArrayList<>();
-        ArrayList<String> misfits = new ArrayList<>();
-        Pattern integersPattern = Pattern.compile("^(\\d+)$");
-        Pattern floatingPointNumbersPattern = Pattern.compile("^(\\d+)\\.(\\d+)$");
-        Pattern numbersInScientificNotationPattern = Pattern.compile("^([\\dA-Za-z\\.\\+\\-]+)$");
+    public void classifyNumbers(ArrayList<String> numbers) {
+        System.out.println("Arguments classification:\nIntegers: " + getIntegers(numbers)
+                + "\nFloating Point Numbers: " + getFloatingPointNumbers(numbers)
+                + "\nNumbers in scientific notation: " + getNumbersInScientificNotation(numbers));
+    }
 
+    public ArrayList<String> getIntegers(ArrayList<String> numbers) {
+        ArrayList<String> integers = new ArrayList<>();
+        Pattern integersPattern = Pattern.compile("^(\\d+)$");
         for (String number : numbers) {
             Matcher integersMatcher = integersPattern.matcher(number);
             boolean matchesIntegers = integersMatcher.matches();
-            Matcher floatingPointNumbersMatcher = floatingPointNumbersPattern.matcher(number);
-            boolean matchesFloatingPointNumbers = floatingPointNumbersMatcher.matches();
-            Matcher numbersInScientificNotationMatcher = numbersInScientificNotationPattern.matcher(number);
-            boolean matchesNumbersInScientificNotation = numbersInScientificNotationMatcher.matches();
             if (matchesIntegers) {
                 integers.add(number);
-            } else if (matchesFloatingPointNumbers) {
-                floatingPointNumbers.add(number);
-            } else if (matchesNumbersInScientificNotation) {
-                numbersInScientificNotation.add(number);
-            } else {
-                misfits.add(number);
             }
         }
-        System.out.println("Arguments classification:\nIntegers: " + integers + "\nFloating Point Numbers: " + floatingPointNumbers + "\nNumbers in scientific notation: " + numbersInScientificNotation + "\nUnclassified arguments: " + misfits);
+        return integers;
+    }
+
+    public ArrayList<String> getFloatingPointNumbers(ArrayList<String> numbers) {
+        ArrayList<String> floatingPointNumbers = new ArrayList<>();
+        Pattern floatingPointNumbersPattern = Pattern.compile("^(\\d+)\\.(\\d+)$");
+        for (String number : numbers) {
+            Matcher floatingPointNumbersMatcher = floatingPointNumbersPattern.matcher(number);
+            boolean matchesFloatingPointNumbers = floatingPointNumbersMatcher.matches();
+            if (matchesFloatingPointNumbers) {
+                floatingPointNumbers.add(number);
+            }
+        }
+        return floatingPointNumbers;
+    }
+
+    public ArrayList<String> getNumbersInScientificNotation(ArrayList<String> numbers) {
+        ArrayList<String> numbersInScientificNotation = new ArrayList<>();
+        Pattern numbersInScientificNotationPattern = Pattern.compile("^\\d\\.(\\d)+[eE][+-](\\d)+$");
+        for (String number : numbers) {
+            Matcher numbersInScientificNotationMatcher = numbersInScientificNotationPattern.matcher(number);
+            boolean matchesNumbersInScientificNotation = numbersInScientificNotationMatcher.matches();
+            if (matchesNumbersInScientificNotation) {
+                numbersInScientificNotation.add(number);
+            }
+        }
+        return numbersInScientificNotation;
     }
 }
