@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Code refactor 2 correction">
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/CalculatorOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/CalculatorOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task3/UpgradedCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/src/test/java/Task3/UpgradedCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/test/java/Task3/UpgradedCalculatorTest.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Double thread calculator">
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/OwnHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/OwnMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task2/OwnFifoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task2/OwnQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task3/OwnGenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task3/OwnList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/CarEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/src/main/java/Task5/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +51,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson15/src/main/java/Task1/DivisibleByThreeCollector.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -104,7 +112,7 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Task5.Main">
     <configuration name="DivisibleByThreeCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.DivisibleByThreeCollector" />
       <module name="lesson15" />
@@ -118,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task5.Main" />
-      <module name="lesson9" />
+    <configuration name="PeselValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.PeselValidator" />
+      <module name="lesson14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task5.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeselValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.PeselValidator" />
-      <module name="lesson14" />
+    <configuration name="Task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.Main" />
+      <module name="lesson9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,7 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Task5.Main" />
         <item itemvalue="Application.UpgradedCalculator" />
         <item itemvalue="Application.DivisibleByThreeCollector" />
         <item itemvalue="Application.PeselValidator" />

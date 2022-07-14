@@ -2,7 +2,11 @@ package Task5;
 
 public class Car implements Vehicle {
 
-    CarEngine carEngine = new CarEngine();
+    private Engine engine;
+
+    public Car(Engine engine) {
+        this.engine = engine;
+    }
 
     private boolean isMoving = false;
 
@@ -11,7 +15,7 @@ public class Car implements Vehicle {
         if (isMoving) {
             System.out.println("Already started!");
         } else {
-            carEngine.start();
+            engine.start();
             this.isMoving = true;
             System.out.println("Enjoy your ride!");
         }
@@ -22,7 +26,7 @@ public class Car implements Vehicle {
         if (!isMoving) {
             System.out.println("Already stopped!");
         } else {
-            carEngine.stop();
+            engine.stop();
             this.isMoving = false;
             System.out.println("Car stopped!");
         }
