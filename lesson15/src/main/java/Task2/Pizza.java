@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Pizza {
     private final String name;
-    List<Ingredient> composition;
+    private final List<Ingredient> composition;
     private final int calories;
     private final boolean isVegetarian;
 

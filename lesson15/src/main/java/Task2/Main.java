@@ -2,7 +2,7 @@ package Task2;
 
 import java.util.*;
 
-public class PizzaComparator {
+public class Main {
     public static void main(String[] args) {
         List<Ingredient> diavolaComposition = Arrays.asList(Ingredient.mozzarella, Ingredient.tomato, Ingredient.salami);
         Pizza diavola = new Pizza("Diavola", diavolaComposition, 1300, false);
@@ -47,16 +47,14 @@ public class PizzaComparator {
                 .stream()
                 .allMatch(pizza -> pizza.getComposition().contains(Ingredient.mozzarella)));
         System.out.println("\nPizza with the most amount of calories:");
-        Pizza maxCalories = menu
+        menu
                 .stream()
                 .max(Comparator.comparing(Pizza::getCalories))
-                .get();
-        System.out.println(maxCalories.getName());
+                .ifPresent(pizza -> System.out.println(pizza.getName()));
         System.out.println("\nPizza with the least amount of calories");
-        Pizza minCalories = menu
+        menu
                 .stream()
                 .min(Comparator.comparing((Pizza::getCalories)))
-                .get();
-        System.out.println(minCalories.getName());
+                .ifPresent(pizza -> System.out.println(pizza.getName()));
     }
 }
