@@ -2,9 +2,9 @@ package Task3;
 
 public class CinemaHall {
     private final String name;
-    private final String cinemaHallType;
+    private final CinemaHallType cinemaHallType;
 
-    public CinemaHall(String name, String cinemaHallType) {
+    public CinemaHall(String name, CinemaHallType cinemaHallType) {
         this.name = name;
         this.cinemaHallType = cinemaHallType;
     }
@@ -13,7 +13,7 @@ public class CinemaHall {
         return name;
     }
 
-    public String getCinemaHallType() {
+    public CinemaHallType getCinemaHallType() {
         return cinemaHallType;
     }
 }
