@@ -2,82 +2,86 @@ package Task3;
 
 public class MyLinkedList {
 
-    transient int size = 0;
-    transient MyLinkedList.Node<String> first;
+    int size = 0;
+    Node<String> first;
 
-    transient MyLinkedList.Node<String> last;
+    Node<String> last;
 
     public int size() {
         return size;
     }
 
-    void linkLast(String e) {
-        final MyLinkedList.Node<String> l = last;
-        final MyLinkedList.Node<String> newNode = new MyLinkedList.Node<>(l, e, null);
+    private void linkLast(String entry) {
+        final Node<String> last1 = last;
+        final Node<String> newNode = new Node<>(last1, entry, null);
         last = newNode;
-        if (l == null)
+        if (last1 == null) {
             first = newNode;
-        else
-            l.next = newNode;
+        } else {
+            last1.next = newNode;
+        }
         size++;
     }
 
-    void linkBefore(String e, MyLinkedList.Node<String> succ) {
-        final MyLinkedList.Node<String> pred = succ.prev;
-        final MyLinkedList.Node<String> newNode = new MyLinkedList.Node<>(pred, e, succ);
+    private void linkBefore(String entry, Node<String> succ) {
+        final Node<String> pred = succ.prev;
+        final Node<String> newNode = new Node<>(pred, entry, succ);
         succ.prev = newNode;
-        if (pred == null)
+        if (pred == null) {
             first = newNode;
-        else
+        } else {
             pred.next = newNode;
+        }
         size++;
     }
 
-    String unlink(MyLinkedList.Node<String> x) {
-        final String element = x.item;
-        final MyLinkedList.Node<String> next = x.next;
-        final MyLinkedList.Node<String> prev = x.prev;
+    private String unlink(Node<String> stringNode) {
+        final String element = stringNode.item;
+        final Node<String> next = stringNode.next;
+        final Node<String> prev = stringNode.prev;
 
         if (prev == null) {
             first = next;
         } else {
             prev.next = next;
-            x.prev = null;
+            stringNode.prev = null;
         }
 
         if (next == null) {
             last = prev;
         } else {
             next.prev = prev;
-            x.next = null;
+            stringNode.next = null;
         }
 
-        x.item = null;
+        stringNode.item = null;
         size--;
         return element;
     }
 
-    private boolean isPositionIndex(int index) {
+    private boolean isPositionIndexExisting(int index) {
         return index >= 0 && index <= size;
     }
 
-    private boolean isElementIndex(int index) {
+    private boolean isElementIndexExisting(int index) {
         return index >= 0 && index < size;
     }
 
 
     private void checkPositionIndex(int index) {
-        if (!isPositionIndex(index))
+        if (!isPositionIndexExisting(index)) {
             throw new IndexOutOfBoundsException(index + " index not found!");
+        }
     }
 
     private void checkElementIndex(int index) {
-        if (!isElementIndex(index))
+        if (!isElementIndexExisting(index)) {
             throw new IndexOutOfBoundsException(index + " index not found!");
+        }
     }
 
-    public boolean add(String e) {
-        linkLast(e);
+    public boolean add(String element) {
+        linkLast(element);
         return true;
 
     }
@@ -85,10 +89,11 @@ public class MyLinkedList {
     public void add(int index, String element) {
         checkPositionIndex(index);
 
-        if (index == size)
+        if (index == size) {
             linkLast(element);
-        else
+        } else {
             linkBefore(element, node(index));
+        }
     }
 
     public String remove(int index) {
@@ -96,27 +101,29 @@ public class MyLinkedList {
         return unlink(node(index));
     }
 
-    MyLinkedList.Node<String> node(int index) {
+    private Node<String> node(int index) {
 
         if (index < (size >> 1)) {
-            MyLinkedList.Node<String> x = first;
-            for (int i = 0; i < index; i++)
-                x = x.next;
-            return x;
+            Node<String> stringNode = first;
+            for (int i = 0; i < index; i++) {
+                stringNode = stringNode.next;
+            }
+            return stringNode;
         } else {
-            MyLinkedList.Node<String> x = last;
-            for (int i = size - 1; i > index; i--)
-                x = x.prev;
-            return x;
+            Node<String> stringNode = last;
+            for (int i = size - 1; i > index; i--) {
+                stringNode = stringNode.prev;
+            }
+            return stringNode;
         }
     }
 
-    private static class Node<String> {
+    protected static class Node<String> {
         String item;
-        MyLinkedList.Node<String> next;
-        MyLinkedList.Node<String> prev;
+        Node<String> next;
+        Node<String> prev;
 
-        Node(MyLinkedList.Node<String> prev, String element, MyLinkedList.Node<String> next) {
+        Node(Node<String> prev, String element, Node<String> next) {
             this.item = element;
             this.next = next;
             this.prev = prev;
