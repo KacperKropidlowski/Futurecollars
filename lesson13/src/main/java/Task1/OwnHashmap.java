@@ -2,11 +2,12 @@ package Task1;
 
 public class OwnHashmap implements OwnMap {
 
-    Entry[][] ownHashMap = new Entry[1000][1000];
+    private static final int MAX_SIZE = 1000;
+    private final Entry[][] ownHashMap = new Entry[MAX_SIZE][MAX_SIZE];
 
     @Override
     public boolean put(String key, String value) {
-        int index = Math.abs(key.hashCode() % 1000);
+        int index = Math.abs(key.hashCode() % MAX_SIZE);
         for (int i = 0; i < ownHashMap[index].length; i++) {
             if (ownHashMap[index][i] == null) {
                 ownHashMap[index][i] = new Entry(key, value);
@@ -20,7 +21,7 @@ public class OwnHashmap implements OwnMap {
 
     @Override
     public boolean containsKey(String key) {
-        int index = Math.abs(key.hashCode() % 1000);
+        int index = Math.abs(key.hashCode() % MAX_SIZE);
         for (Entry value : ownHashMap[index]) {
             if (value != null)
                 return true;
@@ -29,17 +30,24 @@ public class OwnHashmap implements OwnMap {
     }
 
     @Override
-    public boolean containsValue(Object value) {
+    public boolean containsValue(String value) {
+        for (Entry[] keys : ownHashMap) {
+            for (Entry entry : keys) {
+                if (entry.getValue().equals(value)) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
     @Override
     public String remove(String key) {
-        int index = Math.abs(key.hashCode() % 1000);
+        int index = Math.abs(key.hashCode() % MAX_SIZE);
         String value = null;
         for (int i = 0; i < ownHashMap[index].length; i++) {
-            if (ownHashMap[index][i] != null) {
-                value = ownHashMap[index][i].value;
+            if (ownHashMap[index][i] != null && ownHashMap[index][i].getKey().equals(key)) {
+                value = ownHashMap[index][i].getValue();
                 ownHashMap[index][i] = null;
                 break;
             }
@@ -50,10 +58,10 @@ public class OwnHashmap implements OwnMap {
 
     @Override
     public String get(String key) {
-        int index = Math.abs(key.hashCode() % 1000);
+        int index = Math.abs(key.hashCode() % MAX_SIZE);
         for (Entry value : ownHashMap[index]) {
-            if (value != null && value.key.equals(key)) {
-                return value.value;
+            if (value != null && value.getKey().equals(key)) {
+                return value.getValue();
             }
         }
         return null;

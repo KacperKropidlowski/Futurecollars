@@ -4,7 +4,7 @@ public interface OwnMap {
 
     boolean put(String key, String value);
     boolean containsKey(String key);
-    boolean containsValue(Object value);
+    boolean containsValue(String value);
 
     /**
      * @param key
