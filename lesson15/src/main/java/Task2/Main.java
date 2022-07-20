@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         List<Ingredient> diavolaComposition = Arrays.asList(Ingredient.mozzarella, Ingredient.tomato, Ingredient.salami);
-        Pizza diavola = new Pizza("Diavola", diavolaComposition, 1300, false);
+        Pizza diavola = new Pizza("Diavola", diavolaComposition, 1300,false);
         List<Ingredient> romaComposition = Arrays.asList(Ingredient.mozzarella, Ingredient.tomato, Ingredient.champignons, Ingredient.onion);
         Pizza roma = new Pizza("Roma", romaComposition, 1050, true);
         List<Ingredient> parmaComposition = Arrays.asList(Ingredient.mozzarella, Ingredient.tomato, Ingredient.champignons, Ingredient.salami);
@@ -30,16 +30,19 @@ public class Main {
         menu
                 .stream()
                 .filter(Pizza::isVegetarian)
-                .forEach(pizza -> System.out.println(pizza.getName()));
+                .map(Pizza::getName)
+                .forEach(System.out::println);
         System.out.println("\nPizzas with celery:");
         menu
                 .stream()
                 .filter(pizza -> pizza.getComposition().contains(Ingredient.celery))
-                .forEach(pizza -> System.out.println(pizza.getName()));
+                .map(Pizza::getName)
+                .forEach(System.out::println);
         System.out.println("\nVegetarian pizza with tomato and pepper exists:");
         boolean isVegetarianPizzaWithTomatoAndPepperExisting = menu
                 .stream()
-                .anyMatch(pizza -> (pizza.isVegetarian()) && (pizza.getComposition().contains(Ingredient.tomato)) && (pizza.getComposition().contains(Ingredient.pepper)));
+                .filter(Pizza::isVegetarian)
+                .anyMatch(pizza -> (pizza.getComposition().contains(Ingredient.tomato)) && (pizza.getComposition().contains(Ingredient.pepper)));
         System.out.println(isVegetarianPizzaWithTomatoAndPepperExisting);
 
         System.out.println("\nDoes all pizzas contains mozzarella:");
@@ -50,11 +53,13 @@ public class Main {
         menu
                 .stream()
                 .max(Comparator.comparing(Pizza::getCalories))
-                .ifPresent(pizza -> System.out.println(pizza.getName()));
+                .map(Pizza::getName)
+                .ifPresent(System.out::println);
         System.out.println("\nPizza with the least amount of calories");
         menu
                 .stream()
                 .min(Comparator.comparing((Pizza::getCalories)))
-                .ifPresent(pizza -> System.out.println(pizza.getName()));
+                .map(Pizza::getName)
+                .ifPresent(System.out::println);
     }
 }
