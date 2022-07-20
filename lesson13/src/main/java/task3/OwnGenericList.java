@@ -2,7 +2,7 @@ package task3;
 
 public class OwnGenericList<E> implements OwnList<E>{
 
-    private E[] elements;
+    private final Object[] elements = new Object[10];
 
     @Override
     public boolean add(E e) {
@@ -11,7 +11,7 @@ public class OwnGenericList<E> implements OwnList<E>{
 
     @Override
     public E get(int index) {
-        return null;
+        return (E) this.elements[index];
     }
 
     @Override
