@@ -5,8 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 import java.util.stream.Stream;
 
 class UpgradedCalculatorTest {
@@ -15,18 +14,11 @@ class UpgradedCalculatorTest {
     @MethodSource("provideValuesForShouldPerformUpgradedCalculationTest")
     void shouldPerformUpgradedCalculation(String calculatorOperation, double left, double right, double expected) {
         //given
-        Addition addition = new Addition();
-        Subtraction subtraction = new Subtraction();
-        Division division = new Division();
-        Multiplication multiplication = new Multiplication();
-        Map<String, CalculatorOperation> operations = new HashMap<>();
-        operations.put(addition.getSign(), addition);
-        operations.put(subtraction.getSign(), subtraction);
-        operations.put(division.getSign(), division);
-        operations.put(multiplication.getSign(), multiplication);
-        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(operations);
+        UpgradedCalculator upgradedCalculator = new UpgradedCalculator(
+                List.of(new Addition(), new Subtraction(), new Division(), new Multiplication())
+        );
         //when
-        double actual = upgradedCalculator.upgradedCalculate(calculatorOperation, left, right);
+        double actual = upgradedCalculator.calculate(calculatorOperation, left, right);
         //then
         Assertions.assertEquals(expected, actual);
     }
