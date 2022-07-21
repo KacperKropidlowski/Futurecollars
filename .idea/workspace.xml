@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Person comparison correction">
-      <change afterPath="$PROJECT_DIR$/lesson14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15/src/main/java/Task1/DivisibleByThreeChecker.java" afterDir="false" />
+    <list default="true" id="58372aa0-ca0c-4bbd-bc53-cf681abf800f" name="Changes" comment="Double thread calculator">
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/OwnHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/OwnMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task1/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task2/OwnFifoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task2/OwnQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task3/OwnGenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/java/task3/OwnList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16/src/main/java/task4/DoubleThreadCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson15Task1" />
+        <entry key="$PROJECT_DIR$" value="Lesson16Task3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task2/OwnListClass.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task3/OwnLinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson12/src/main/java/Task4/PersonsComparisonDisplay.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson15/src/main/java/Task1/DivisibleByThreeCollector.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson9/src/main/java/Task4/Employee.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -94,13 +102,13 @@
       <recent name="Task7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DivisibleByThreeChecker">
-    <configuration name="DivisibleByThreeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.DivisibleByThreeChecker" />
-      <module name="lesson15" />
+  <component name="RunManager" selected="Application.DoubleThreadCalculator">
+    <configuration name="DoubleThreadCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.DoubleThreadCalculator" />
+      <module name="lesson16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeselValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.PeselValidator" />
-      <module name="lesson14" />
+    <configuration name="IntegersSumCalculatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.IntegersSumCalculatorClient" />
+      <module name="lesson16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wrongcar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task5.wrongcar" />
-      <module name="lesson9" />
+    <configuration name="IntegersSumCalculatorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.IntegersSumCalculatorServer" />
+      <module name="lesson16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task5.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,18 +142,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lesson9" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4.Main" />
+      <module name="lesson16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task4.*" />
+          <option name="PATTERN" value="task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Task4" />
-      <option name="MAIN_CLASS_NAME" value="Task4.EmployeeBuilderVersionTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DivisibleByThreeChecker" />
-        <item itemvalue="Application.PeselValidator" />
+        <item itemvalue="Application.DoubleThreadCalculator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.IntegersSumCalculatorClient" />
+        <item itemvalue="Application.IntegersSumCalculatorServer" />
         <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveEmployeeBonus" />
-        <item itemvalue="JUnit.EmployeeBuilderVersionTest.shouldRetrieveBaseSalaryWithBonus" />
-        <item itemvalue="Application.wrongcar" />
       </list>
     </recent_temporary>
   </component>
@@ -184,41 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654763395386</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Task 3 Lesson 9">
-      <created>1655543128863</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1655543128863</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Task 0 Lesson 10">
-      <created>1655900113734</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1655900113734</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Task 1 Lesson 10">
-      <created>1655901482909</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1655901482909</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Task 0 Lesson 10">
-      <created>1655975040647</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1655975040647</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Task 0 Lesson 10">
-      <created>1655975492695</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1655975492695</updated>
     </task>
     <task id="LOCAL-00031" summary="Task 1 Lesson 11">
       <created>1655981205207</created>
@@ -528,7 +498,42 @@
       <option name="project" value="LOCAL" />
       <updated>1656580934287</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Pair class">
+      <created>1657704653891</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1657704653891</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Generic bubble sorter">
+      <created>1657707504682</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1657707504682</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Website saver">
+      <created>1657711016932</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1657711016932</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Echo client server">
+      <created>1657726699490</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1657726699490</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Integer sum calculator client server">
+      <created>1657738466058</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1657738466058</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -572,7 +577,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lesson10Task4" />
+                        <option value="Lesson16Task1" />
                       </list>
                     </value>
                   </entry>
@@ -615,12 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 5 Lesson 10" />
-    <MESSAGE value="Task 6 Lesson 10" />
-    <MESSAGE value="Task 7 Lesson 10" />
-    <MESSAGE value="Task 3 Lesson 6 correction" />
-    <MESSAGE value="Task 5 Lesson 6 correction" />
-    <MESSAGE value="Task 6 Lesson 6 correction" />
     <MESSAGE value="Task 1 Lesson 12 problem" />
     <MESSAGE value="Task 2 Lesson 12" />
     <MESSAGE value="Task 8 Lesson 10" />
@@ -640,7 +639,13 @@
     <MESSAGE value="Task 3 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 correction" />
     <MESSAGE value="Task 4 Lesson 9 alternative version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 4 Lesson 9 alternative version" />
+    <MESSAGE value="Pair class" />
+    <MESSAGE value="Generic bubble sorter" />
+    <MESSAGE value="Website saver" />
+    <MESSAGE value="Echo client server" />
+    <MESSAGE value="Integer sum calculator client server" />
+    <MESSAGE value="Double thread calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Double thread calculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,6 +661,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="Task8.WrongTypeOfDataException" package="Task8" />
           <option name="timeStamp" value="30" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="46" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
