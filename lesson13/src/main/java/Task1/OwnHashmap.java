@@ -33,7 +33,7 @@ public class OwnHashmap implements OwnMap {
     public boolean containsValue(String value) {
         for (Entry[] keys : ownHashMap) {
             for (Entry entry : keys) {
-                if (entry.getValue().equals(value)) {
+                if (entry != null && entry.getValue().equals(value)) {
                     return true;
                 }
             }
