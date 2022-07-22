@@ -2,7 +2,9 @@ package task3;
 
 public class OwnGenericList<E> implements OwnList<E> {
 
-    private Object[] elements = new Object[10];
+    static final int DEFAULT_CAPACITY = 10;
+
+    private Object[] elements = new Object[DEFAULT_CAPACITY];
 
     @Override
     public boolean add(E e) {
